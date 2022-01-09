@@ -1,1 +1,192 @@
-/* styles for home.js */
+/* styles for home.js */ 
+.spaced{
+    max-width: 82%;
+    margin-left: 9%;
+}
+.italicize{
+    font-style: italic;
+}
+
+.uppercased{
+    text-transform: uppercase;
+}
+.capitalized{
+    text-transform: capitalize;
+}
+.main{
+    background-color: #e9e9e9;
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.15rem;
+    min-height: 80px;
+    align-items: center;
+    
+}
+.header-text{
+    flex-basis: 60%;
+}
+.header-small-links{
+    display: flex;
+    justify-content: right;
+    font-size: 0.75em;
+    height: 39px;
+    line-height: initial;
+}
+.header-small-links div{
+    padding:9px 15px;
+}
+
+.header-small-links div:hover{
+    background-color: #007cba;
+    color: white;
+    cursor: pointer;
+}
+.header-big-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    height: 39px;
+    line-height: initial;
+}
+.header-big-links div{
+    padding: 9px 9px;
+}
+
+.header-big-links div:hover{
+    background-color: #007cba;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-header{
+    background-color: black;
+    display: flex;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    align-items: center;
+    color: white;
+}
+.sub-header div{
+    padding:17px 10px;
+}
+.sub-header div:hover{
+    background-color: #006ba1;
+    cursor: pointer;
+}
+
+.banner{
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('http://pec.hosting.acm.org/wp-content/uploads/2020/09/PicsArt_09-11-11.21.43.jpg')
+}
+.banner-content{
+    color: white;
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+.banner-heading-small{
+    color: #c6c5ff;
+    font-size: 1.5em;
+}
+.banner-heading-large{
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.body{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    padding-top: 50px;
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+
+
+
+.card-component{
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #e9e9e9;
+    max-width:min-content;
+}
+.card-header{
+    color: #006ba1;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sidebar ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+.sidebar li{
+    font-size: 1.1rem;
+    padding-top: 5px;
+}
+.sidebar a{
+    color: #005a83;
+}
+.sidebar h3{
+    font-weight: 400;
+    font-size:1.5rem;
+}
+.upcoming-events-body{
+    display:flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.upcoming-events-body i{
+    font-size: 2rem;
+}
+.tags-title-type-2{
+    font-size: 1.75em;
+}
+.tags-title-type-1{
+    font-size: 1.14em;
+}
+.tags-titles a{
+    line-height: initial;
+    padding-right: 8px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #282828;
+    border-top:8px solid #a6bc09;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.footer-socials{
+    display: grid;
+    grid-template-columns: repeat(4, 5rem);
+    padding-left: 10px;
+    gap:1rem;
+    color:#95d3f1;
+    font-size: 3rem;
+}
+
+.acm-custom-logos img{
+    height: 100px;
+}
+.acm-custom-logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
