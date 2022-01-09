@@ -94,11 +94,11 @@ class Home extends Component {
                         <div className='sidebar-comp-one capitalized'>
                             <h3>recent posts</h3>
                             <ul>
-                                <li><a href='#'>software hackathon</a></li>
-                                <li><a href='#'>code battle 4</a></li>
-                                <li><a href='#'>international womans day 2021</a></li>
-                                <li><a href='#'>intro to linux workshop</a></li>
-                                <li><a href='#'>projects registration drive</a></li>
+                                <li><a href='/'>software hackathon</a></li>
+                                <li><a href='/'>code battle 4</a></li>
+                                <li><a href='/'>international womans day 2021</a></li>
+                                <li><a href='/'>intro to linux workshop</a></li>
+                                <li><a href='/'>projects registration drive</a></li>
                             </ul>
                         </div>
                         <div className='sidebar-comp-two'>
@@ -119,32 +119,32 @@ class Home extends Component {
                         <div className='sidebar-comp-four capitalized'>
                             <h3 className='capitalized'>pages</h3>
                             <ul>
-                                <li><a href='#'>create post</a></li>
-                                <li><a href='#'>dashboard</a></li>
-                                <li><a href='#'>edit my posts</a></li>
-                                <li><a href='#'>my account</a></li>
-                                <li><a href='#'>password reset</a></li>
-                                <li><a href='#'>recruits 2020</a></li>
-                                <li><a href='#'>user</a></li>
+                                <li><a href='/'>create post</a></li>
+                                <li><a href='/'>dashboard</a></li>
+                                <li><a href='/'>edit my posts</a></li>
+                                <li><a href='/'>my account</a></li>
+                                <li><a href='/'>password reset</a></li>
+                                <li><a href='/'>recruits 2020</a></li>
+                                <li><a href='/'>user</a></li>
                             </ul>
                         </div>
                         <div className='sidebar-comp-five'>
                             <h3 className='capitalized'>tags</h3>
                             <div className='tags-titles'>
-                                <a className='tags-title-type-1' href='#'>2020</a>
-                                <a className='tags-title-type-2' href='#'>codebattle</a>
-                                <a className='tags-title-type-1' href='#'>coding </a>
-                                <a className='tags-title-type-1' href='#'>ctf</a>
+                                <a className='tags-title-type-1' href='/'>2020</a>
+                                <a className='tags-title-type-2' href='/'>codebattle</a>
+                                <a className='tags-title-type-1' href='/'>coding </a>
+                                <a className='tags-title-type-1' href='/'>ctf</a>
                                 <br></br>
-                                <a className='tags-title-type-2' href='#'>event</a>
-                                <a className='tags-title-type-1' href='#'>hackathon</a>
-                                <a className='tags-title-type-1' href='#'>linux</a>
+                                <a className='tags-title-type-2' href='/'>event</a>
+                                <a className='tags-title-type-1' href='/'>hackathon</a>
+                                <a className='tags-title-type-1' href='/'>linux</a>
                                 <br></br>
-                                <a className='tags-title-type-2' href='#'>podcast</a>
-                                <a className='tags-title-type-1' href='#'>recruitment</a>
+                                <a className='tags-title-type-2' href='/'>podcast</a>
+                                <a className='tags-title-type-1' href='/'>recruitment</a>
                                 <br></br>
-                                <a className='tags-title-type-2' href='#'>talkingtech</a>
-                                <a className='tags-title-type-2' href='#'>workshop</a>
+                                <a className='tags-title-type-2' href='/'>talkingtech</a>
+                                <a className='tags-title-type-2' href='/'>workshop</a>
                             </div>
                         </div>
                     </div>
