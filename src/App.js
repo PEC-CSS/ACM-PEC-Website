@@ -4,7 +4,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter basename="/ACM-PEC-Website">
     <div>
       <Switch>
         <Route exact path='/'>
