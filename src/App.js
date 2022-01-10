@@ -1,18 +1,18 @@
 import React from 'react'
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
     <div>
       <Switch>
-        <Route exact path='/ACM-PEC-Website'>
+        <Route exact path='/'>
           <Home />
         </Route>
       </Switch>
     </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
