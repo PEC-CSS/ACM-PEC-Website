@@ -1,10 +1,10 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div>
       <Switch>
         <Route exact path='/'>
@@ -12,7 +12,7 @@ function App() {
         </Route>
       </Switch>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
