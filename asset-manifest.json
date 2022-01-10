@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/acm_pec_website/static/css/main.58eeeea4.chunk.css",
+    "main.js": "/acm_pec_website/static/js/main.c49a331e.chunk.js",
+    "main.js.map": "/acm_pec_website/static/js/main.c49a331e.chunk.js.map",
+    "runtime-main.js": "/acm_pec_website/static/js/runtime-main.1d92d27b.js",
+    "runtime-main.js.map": "/acm_pec_website/static/js/runtime-main.1d92d27b.js.map",
+    "static/js/2.dced3921.chunk.js": "/acm_pec_website/static/js/2.dced3921.chunk.js",
+    "static/js/2.dced3921.chunk.js.map": "/acm_pec_website/static/js/2.dced3921.chunk.js.map",
+    "static/js/3.1805dace.chunk.js": "/acm_pec_website/static/js/3.1805dace.chunk.js",
+    "static/js/3.1805dace.chunk.js.map": "/acm_pec_website/static/js/3.1805dace.chunk.js.map",
+    "index.html": "/acm_pec_website/index.html",
+    "static/css/main.58eeeea4.chunk.css.map": "/acm_pec_website/static/css/main.58eeeea4.chunk.css.map",
+    "static/js/2.dced3921.chunk.js.LICENSE.txt": "/acm_pec_website/static/js/2.dced3921.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d92d27b.js",
+    "static/js/2.dced3921.chunk.js",
+    "static/css/main.58eeeea4.chunk.css",
+    "static/js/main.c49a331e.chunk.js"
+  ]
+}
