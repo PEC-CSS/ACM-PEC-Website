@@ -7,7 +7,7 @@ function App() {
     <HashRouter>
     <div>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/acm_pec_website'>
           <Home />
         </Route>
       </Switch>
