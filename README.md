@@ -47,6 +47,7 @@ This is the official website of PEC ACM student chapter. This is an Open-Source 
 <br/> 
 
 ### 4. ```git checkout master``` and create a copy of this branch ```git checkout -b <new-branch>```    
+If at some point you watch pull files from some other branch: ```git pull origin <that-branch>```
 <br/>
 
 ### 5. You can make your changes in this branch and if you are using VS Code Version Control it will show you beautifully all the changes made.    
