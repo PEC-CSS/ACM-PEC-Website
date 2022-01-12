@@ -29,7 +29,23 @@ This is the official website of PEC ACM student chapter. This is an Open-Source 
     `npm install --save-dev *dependency_name*`
     > These are those dependencies which are only required during development.
 
-<br/><br/>
+<br/><br/>  
+  
+    
+<h1 align='center'>Making PRs</h1>
+### 1. Fork the repo. 
+### 2.  Clone the repo. 
+  Either download the zip source code, or copy the URL, create a new folder 
+  ```git init``` and ```git clone https://github.com/<username>/ACM-PEC-Website```
+### 3. This will give you access to all branches of the origin through remote. You need to now fetch all branches
+```git fetch```
+### 4. ```git checkout master``` and create a copy of this branch ```git checkout -b <new-branch>```
+### 5. You can make your changes in this branch and if you are using VS Code Version Control it will show you beautifully all the changes made.
+### 6. Last step is to make changes visible on cloud
+```git add .``` -> ```git commit -m "relevant_msg"``` -> ```git push origin master```
+### 7. You can come to your forked repo and create the PR.
+
+Happy Contributing!! :)
 
 ## Announcments
 
