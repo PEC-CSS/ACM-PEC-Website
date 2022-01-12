@@ -32,7 +32,8 @@ This is the official website of PEC ACM student chapter. This is an Open-Source 
 <br/><br/>  
   
     
-<h1 align='center'>Making PRs</h1>  
+<h1 align='center'><u>Making PRs</u></h1>  
+
 ### 1. Fork the repo. 
 <br/>
 
