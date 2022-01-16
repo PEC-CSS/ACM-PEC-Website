@@ -1,7 +1,13 @@
 /* styles for home.js */ 
+:root{
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+}
+
 .spaced{
-    max-width: 82%;
-    margin-left: 9%;
+    max-width: 84rem;
+    margin:0 auto;
 }
 .italicize{
     font-style: italic;
@@ -26,12 +32,13 @@
     
 }
 .header-text{
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 .header-small-links{
     display: flex;
     justify-content: right;
     font-size: 0.75em;
+    font-weight: 500;
     height: 39px;
     line-height: initial;
 }
@@ -40,7 +47,7 @@
 }
 
 .header-small-links div:hover{
-    background-color: #007cba;
+    background-color: var(--wp-admin-theme-color);
     color: white;
     cursor: pointer;
 }
@@ -48,16 +55,23 @@
     display: flex;
     justify-content: space-between;
     font-size: 1em;
-    height: 39px;
-    line-height: initial;
+    color: white;
 }
 .header-big-links div{
-    padding: 9px 9px;
+    padding: 0.8rem;
+}
+.header-big-links-one{
+    background-color: var(--wp-admin-theme-color-darker-20);
+}
+.header-big-links-two{
+    background-color: var(--wp-admin-theme-color-darker-10);
+}
+.header-big-links-three{
+    background-color: var(--wp-admin-theme-color);
 }
 
 .header-big-links div:hover{
-    background-color: #007cba;
-    color: white;
+    
     cursor: pointer;
 }
 
@@ -73,7 +87,7 @@
     padding:17px 10px;
 }
 .sub-header div:hover{
-    background-color: #006ba1;
+    background-color: var(--wp-admin-theme-color-darker-20);
     cursor: pointer;
 }
 
@@ -103,7 +117,7 @@
 .body{
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 3fr 1fr;
     padding-top: 50px;
     margin-top: -20px;
     padding-bottom: 50px;
@@ -116,9 +130,6 @@
     padding-left: 15px;
 }
 
-
-
-
 .card-component{
     padding: 20px;
     margin: 15px;
@@ -126,22 +137,28 @@
     max-width:min-content;
 }
 .card-header{
-    color: #006ba1;
+    color: var(--wp-admin-theme-color-darker-10);
     font-weight: 500;
     font-size: 1.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.card-content{
+    font-size: 1.1em;
 }
 .sidebar ul{
     list-style-position: inside;
     padding-left: 0;
 }
 .sidebar li{
-    font-size: 1.1rem;
+    font-size: 1.12rem;
     padding-top: 5px;
 }
 .sidebar a{
-    color: #005a83;
+    color: var(--wp-admin-theme-color-darker-20);
+}
+.sidebar a:hover{
+    color: #003249;
 }
 .sidebar h3{
     font-weight: 400;
@@ -155,6 +172,38 @@
 .upcoming-events-body i{
     font-size: 2rem;
 }
+table{
+    background: #fff;
+    border: none;
+    table-layout: auto;
+    border-spacing: 3px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+table caption{
+    font-size: 1.25em;
+    font-weight: 500;
+}
+table thead{
+    background-color: #7e7e7e;
+    color:white;
+    font-weight: 500;
+}
+tr{
+    display: table-row;
+    border-color: inherit;
+}
+td{
+    padding: 5px;
+}
+tbody tr:nth-child(odd){
+    background-color: #efefef;
+}
+tbody tr:nth-child(even){
+    background-color:#d8d8d8 ;
+}
+
 .tags-title-type-2{
     font-size: 1.75em;
 }
