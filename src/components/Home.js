@@ -185,7 +185,7 @@ class Home extends Component {
                                 </tbody>
                             </table>
                             <div>
-                                <a style={{fontSize:"1.25em"}}>« Mar </a> 
+                                <a href="/" style={{fontSize:"1.25em"}}>« Mar </a> 
                             </div>
                         </div>
                         <div className='sidebar-comp-three'>
