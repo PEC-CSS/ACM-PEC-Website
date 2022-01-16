@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ACM-PEC-Website/static/css/main.58eeeea4.chunk.css",
-    "main.js": "/ACM-PEC-Website/static/js/main.647ee687.chunk.js",
-    "main.js.map": "/ACM-PEC-Website/static/js/main.647ee687.chunk.js.map",
+    "main.css": "/ACM-PEC-Website/static/css/main.2ccd512e.chunk.css",
+    "main.js": "/ACM-PEC-Website/static/js/main.c0671443.chunk.js",
+    "main.js.map": "/ACM-PEC-Website/static/js/main.c0671443.chunk.js.map",
     "runtime-main.js": "/ACM-PEC-Website/static/js/runtime-main.066b1c0a.js",
     "runtime-main.js.map": "/ACM-PEC-Website/static/js/runtime-main.066b1c0a.js.map",
     "static/js/2.dced3921.chunk.js": "/ACM-PEC-Website/static/js/2.dced3921.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.1805dace.chunk.js": "/ACM-PEC-Website/static/js/3.1805dace.chunk.js",
     "static/js/3.1805dace.chunk.js.map": "/ACM-PEC-Website/static/js/3.1805dace.chunk.js.map",
     "index.html": "/ACM-PEC-Website/index.html",
-    "static/css/main.58eeeea4.chunk.css.map": "/ACM-PEC-Website/static/css/main.58eeeea4.chunk.css.map",
+    "static/css/main.2ccd512e.chunk.css.map": "/ACM-PEC-Website/static/css/main.2ccd512e.chunk.css.map",
     "static/js/2.dced3921.chunk.js.LICENSE.txt": "/ACM-PEC-Website/static/js/2.dced3921.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.066b1c0a.js",
     "static/js/2.dced3921.chunk.js",
-    "static/css/main.58eeeea4.chunk.css",
-    "static/js/main.647ee687.chunk.js"
+    "static/css/main.2ccd512e.chunk.css",
+    "static/js/main.c0671443.chunk.js"
   ]
 }
