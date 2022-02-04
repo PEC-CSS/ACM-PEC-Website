@@ -35,7 +35,7 @@ const Header = () => {
                         </ul>
                         {/* Menu For Mobile */}
                         <div className='hamburger-menu'>
-                            <a href='#' onClick={() => setShowMediaIcons(!showMediaIcons)}><TiThMenuOutline /></a>
+                            <a href='#foo' onClick={() => setShowMediaIcons(!showMediaIcons)}><TiThMenuOutline /></a>
                         </div>
 
                     </div>
