@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../assets/stylesheets/Footer.css";
-import {FaFacebookF,FaTwitter,FaInstagram,FaYoutube} from 'react-icons/fa';
+import {FaFacebookF,FaLinkedin,FaInstagram,FaYoutube} from 'react-icons/fa';
 
 class Home extends Component {
     render() {
@@ -14,10 +14,10 @@ class Home extends Component {
                             <div className='Footer__HeadSocialsContainer'>
                                 <div className='Footer__HeadTitle'>Socials:</div>
                                 <ul className='Footer__HeadSocials'>
-                                    <li><a><FaFacebookF className='facebookIcon' /></a></li>
-                                    <li><a><FaTwitter className='twitterIcon'/></a></li>
-                                    <li><a><FaInstagram  className='instagramIcon'/></a></li>
-                                    <li><a><FaYoutube className='youtubeIcon'/></a></li>
+                                    <li><a href='https://www.facebook.com/pecacm' target="new"><FaFacebookF className='facebookIcon' /></a></li>
+                                    <li><a href='https://www.linkedin.com/company/pec-acm-student-chapter/' target="new"><FaLinkedin className='linkediIcon'/></a></li>
+                                    <li><a href='https://instagram.com/pecacm' target="new"><FaInstagram  className='instagramIcon'/></a></li>
+                                    <li><a href='https://www.youtube.com/c/PECACMStudentChapter' target="new"><FaYoutube className='youtubeIcon'/></a></li>
                                 </ul>
                             </div>
                             
