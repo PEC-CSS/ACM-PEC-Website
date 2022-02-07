@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import "../assets/stylesheets/Footer.css";
 import {FaFacebookF,FaLinkedin,FaInstagram,FaYoutube} from 'react-icons/fa';
+=======
+>>>>>>> parent of 5899eea (Basic layout of footer)
 
 class Home extends Component {
     render() {
         return (
+<<<<<<< HEAD
                 <div className='Footer '>
                     <div className='Footer__HeadContainer '>
                         <div className='Footer__Head spaced'>
@@ -40,6 +44,9 @@ class Home extends Component {
                         </div>  
                     </div>
                 </div>
+=======
+                <div><h2>Footer</h2></div>
+>>>>>>> parent of 5899eea (Basic layout of footer)
             )
     }
 }
