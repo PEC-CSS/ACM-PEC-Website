@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.footer-main{
+    display: flex;
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-i{
+    color: red;
+}
+
+.footer-left, .footer-right, .footer-center{
+    width: 33.33vw;
+    border: 1px solid black;
+    padding: 35px;
+    
+}
+
+.footer-hr{
+    border: 0.3px solid #4c4c4c;
+    margin: 15px 0px;
+}
+
+.lfooter-content, .rfooter-content{
+    line-height: 1.7;
+    padding-bottom: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #a7a4a4;
+    font-size: 14px;
+    
+}
+
+.contact-footer{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.contact-text-footer{
+    padding-left: 20px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer-inputbox{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.footer-input{
+    height: 100%;
+    width: 80%;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+
+.footer-input-btn{
+    height: 100%;
+    background-color: red;
+
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cfooter-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cfooter-post{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 18px;
+}
+
+.cfooter-text{
+    padding: 22px;
+}
+
+.cfooter-text-title,.cfooter-text-info{
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px 0px;
+}
+
+.cfooter-text-info{
+    color: #a7a4a4;
+}
+
+.footer-input-btn:hover{
+    cursor: pointer;
+}
+
+.img-footer{
+    height: 65px;
+    width: 90px;
+}
+
+.cfooter-post:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .cfooter-post{
+        margin: 5px;
+    }
+    .cfooter-text, .cfooter-post{
+        padding: 0px 6px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+   
+    .footer-main{
+        flex-direction: column;
+    }
+
+    .footer-left, .footer-right, .footer-center{
+        width: 100%;
+    }
+}
