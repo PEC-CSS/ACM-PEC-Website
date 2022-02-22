@@ -9,7 +9,7 @@ export default function Slider(props) {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
 
-  const projects = props.item.slice(0, Math.min(6, props.item.length));
+  const projects = props.item.slice(0, Math.min(4, props.item.length));
 
   // console.log(currentImage.default); // Image fixed!
 

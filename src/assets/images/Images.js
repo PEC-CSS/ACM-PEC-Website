@@ -29,6 +29,7 @@ const image3 = 'https://drive.google.com/file/d/1SJ2NJ8NVspmSCV70vxmPRz83W3LAqyE
 const image4 = 'https://drive.google.com/file/d/1Rhd4nX2gKiI4Ou1j_EtqiTVe67IyG09f/view?usp=sharing'
 
 // End name with a comma (Place links within quotes)
+// First 4 names will be displayed
 const ProjectImg = [
     image1,
     image2,
