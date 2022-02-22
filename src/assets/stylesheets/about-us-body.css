@@ -1,0 +1,198 @@
+.Body1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35rem;
+    background-color: rgb(1,160,214);
+    padding: 10px;
+    color: rgb(255,255,255);
+    font-weight: 800;
+    padding-top: 3%;
+}
+
+.mission {
+    width: fit-content;
+    height: max-content;
+    font-size: 3.5rem;
+    align-self: center;
+}
+
+.statement {
+    width: fit-content;
+    height: max-content;
+    font-size: 4.5rem;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+/* <-----------------------------------------------------------------> */
+.arrow{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .arrow span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-bottom: 5px solid #ffffff;
+      border-right: 5px solid #ffffff;
+      transform: rotate(45deg);
+      margin: -10px;
+      animation: animate 2s infinite;
+  }
+  .arrow span:nth-child(2){
+      animation-delay: -0.2s;
+  }
+  .arrow span:nth-child(3){
+      animation-delay: -0.4s;
+  }
+  @keyframes animate {
+      0%{
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px,-20px);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: rotate(45deg) translate(20px,20px);
+      }
+  }
+
+/* <-------------------------------------------------------------------> */
+
+.textbox1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size:1.75rem;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    
+}
+.heading1 {
+    font-size: 3rem;
+    padding-left: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: max-content;
+    color: rgb(241, 245, 245);
+}
+.text1 {
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.img1 {
+    width:100%;
+    max-height:100%;
+    float: right;
+    padding: 10%;
+}
+/* .img1::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+
+/* <---------------------------------------------------------------------> */
+
+
+
+.textbox2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size:1.75rem;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    
+}
+.heading2 {
+    font-size: 3rem;
+    padding-left: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: max-content;
+    color: rgb(241, 245, 245);
+}
+.text2 {
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.img2 {
+    width:100%;
+    max-height:100%;
+    float: left;
+    padding: 10%;
+}
+/* .img1::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+
+  /* <---------------------------------------------------------------> */
+
+  .textbox3 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size:1.75rem;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    
+}
+.heading3 {
+    font-size: 3rem;
+    padding-left: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: max-content;
+    color: rgb(241, 245, 245);
+}
+.text3 {
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.img3 {
+    width:100%;
+    max-height:100%;
+    float: right;
+    padding: 10%;
+}
+/* .img1::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
