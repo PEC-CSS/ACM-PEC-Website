@@ -95,6 +95,7 @@ li {
 
 .social-media ul li {
   font-size: 3rem;
+  transition: ease 400ms;
 }
 
 .social-media .hamburger-menu {
@@ -123,6 +124,7 @@ li {
     display: inline-block;
     position: relative;
     /* color: #0087ca; */
+    transition: ease 500ms;
   }
   
   .hover-underline-animation:after {

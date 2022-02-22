@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../assets/stylesheets/header.css';
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare, FaLinkedin} from 'react-icons/fa';
 import { TiThMenuOutline } from 'react-icons/ti';
-import logoacm from "../assets/images/pec_acm_logo.jpg";
+import logoacm from "../assets/images/pec_acm_logo.png";
 
 
 const Header = () => {
