@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ACM-PEC-Website/static/css/main.c78074f5.chunk.css",
-    "main.js": "/ACM-PEC-Website/static/js/main.e5d72718.chunk.js",
-    "main.js.map": "/ACM-PEC-Website/static/js/main.e5d72718.chunk.js.map",
+    "main.js": "/ACM-PEC-Website/static/js/main.35f75448.chunk.js",
+    "main.js.map": "/ACM-PEC-Website/static/js/main.35f75448.chunk.js.map",
     "runtime-main.js": "/ACM-PEC-Website/static/js/runtime-main.54d4dda2.js",
     "runtime-main.js.map": "/ACM-PEC-Website/static/js/runtime-main.54d4dda2.js.map",
     "static/js/2.3f0d72b6.chunk.js": "/ACM-PEC-Website/static/js/2.3f0d72b6.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.54d4dda2.js",
     "static/js/2.3f0d72b6.chunk.js",
     "static/css/main.c78074f5.chunk.css",
-    "static/js/main.e5d72718.chunk.js"
+    "static/js/main.35f75448.chunk.js"
   ]
 }
