@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import '../assets/stylesheets/header.css';
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare, FaLinkedin} from 'react-icons/fa';
 import { TiThMenuOutline } from 'react-icons/ti';
-import logoacm from "../assets/images/pec_acm_logo.png";
+import logoacm from "../assets/images/pec_acm_logo.jpg";
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -19,10 +20,10 @@ const Header = () => {
                     {/* Menu */}
                     <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                         <ul>
-                            <li className='hover-underline-animation'>Home</li>
+                            <li className='hover-underline-animation'><Link to='/'>Home</Link></li>
                             <li className='hover-underline-animation'>Events</li>
                             <li className='hover-underline-animation'>Projects</li>   
-                            <li className='hover-underline-animation'>About Us</li>
+                            <li className='hover-underline-animation'><Link to={{pathname: "./About-Us"}}>About Us</Link></li>
                         </ul>
                     </div>
                     {/* Social Media Desktop*/}
