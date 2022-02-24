@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../assets/stylesheets/About-Us-body.css';
 class Home extends Component {
     render() {
