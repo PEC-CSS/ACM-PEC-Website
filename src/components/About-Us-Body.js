@@ -10,7 +10,7 @@
 
 // export default Home;
 
-import React, { Component } from 'react';
+import React from 'react';
 import { useState } from 'react';
 import '../assets/stylesheets/About-Us-body.css';
 const Home = () => {
