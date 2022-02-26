@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Project from "./Project";
-import logo from "../../assets/images/pec_acm_logo.jpg"
+import logo from "../assets/images/pec_acm_logo.jpg"
 
 
 function ProjectMain() {
