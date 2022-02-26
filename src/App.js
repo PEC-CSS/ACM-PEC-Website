@@ -5,13 +5,16 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About-Us-Body';
 import Events from './components/Events';
-import Projects from './components/ProjectMain'
+import Projects from './components/ProjectMain';
+import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
     <BrowserRouter basename="/ACM-PEC-Website">
     <div>
+      <Fade right>
       <Header />
+      </Fade>
       <Switch>
         <Route exact path='/'>
           <Home />
@@ -26,7 +29,9 @@ function App() {
           <Projects />
         </Route>
       </Switch>
+      <Fade left>
       <Footer />
+      </Fade>
     </div>
     </BrowserRouter>
   );
