@@ -10,13 +10,13 @@ import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/home">
     <div>
       <Fade right>
       <Header />
       </Fade>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/home'>
           <Home />
         </Route>
         <Route path='/About-Us'>
