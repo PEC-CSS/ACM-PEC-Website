@@ -1,10 +1,6 @@
 {
   "name": "acm_pec_website",
-<<<<<<< HEAD
-  "homepage": "https://pec-css.github.io/home",
-=======
   "homepage": "https://pec-css.github.io/ACM-PEC-Website",
->>>>>>> parent of c88082d... url correction
   "version": "0.1.0",
   "private": true,
   "dependencies": {

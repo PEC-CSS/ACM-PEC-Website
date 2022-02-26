@@ -10,17 +10,13 @@ import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
-<<<<<<< HEAD
-    <BrowserRouter basename="/home">
-=======
     <BrowserRouter basename="/ACM-PEC-Website">
->>>>>>> parent of c88082d... url correction
     <div>
       <Fade right>
       <Header />
       </Fade>
       <Switch>
-        <Route exact path='/home'>
+        <Route exact path='/'>
           <Home />
         </Route>
         <Route path='/About-Us'>
