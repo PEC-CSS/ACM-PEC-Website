@@ -2,6 +2,7 @@
 
 # dependencies
 acmwebsite/node_modules
+acmwebsite/dist
 /node_modules
 /.pnp
 .pnp.js
