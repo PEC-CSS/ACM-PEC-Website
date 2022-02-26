@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
-    <BrowserRouter basename="/ACM-PEC-Website">
+    <BrowserRouter basename="/">
     <div>
       <Fade right>
       <Header />
