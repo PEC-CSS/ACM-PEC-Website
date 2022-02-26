@@ -1,8 +1,8 @@
-h1{
+h1 {
     display: block;
 }
 
-.event-wrapper{
+.event-wrapper {
     background-color: skyblue;
     max-height: 80vh;
     height: 80vh;
@@ -13,8 +13,7 @@ h1{
     flex-direction: column;
 }
 
-
-.title{
+.title {
     text-align: center;
     color: #fff;
     font-weight: 600;
@@ -23,35 +22,32 @@ h1{
     margin-bottom: 1px;
 }
 
-.events-section{
+.events-section {
     background-color: #f5f5f5;
     padding: 80px 0;
     display: block;
 }
 
-.event-container{
+.event-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     padding-right: 30px;
     padding-left: 30px;
-
 }
 
-.event-card{
+.event-card {
     /* width: 80vw; */
     display: block;
     width: 72vw;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgb(31,31,31,0.2);
+    box-shadow: 0 4px 8px rgb(31, 31, 31, 0.2);
     margin-bottom: 50px;
-
-
 }
 
-.card-container{
+.card-container {
     display: flex !important;
     align-items: center !important;
     width: 100%;
@@ -61,7 +57,7 @@ h1{
     box-sizing: border-box;
 }
 
-.card-img{
+.card-img {
     padding-left: 0;
     padding-right: 0;
     flex: 0 0 40%;
@@ -74,13 +70,13 @@ h1{
     /* height: 100%; */
 }
 
-.img-fluid{
+.img-fluid {
     max-width: 100%;
     width: 100%;
     height: 100%;
 }
 
-.card-content{
+.card-content {
     text-align: left;
     justify-content: flex-start;
     display: flex;
@@ -89,7 +85,7 @@ h1{
     width: 100%;
 }
 
-.event-date{
+.event-date {
     margin-bottom: 15px;
     font-size: 25px;
     word-spacing: -2.5px;
@@ -99,12 +95,12 @@ h1{
     display: flex;
 }
 
-.timer-icon{
+.timer-icon {
     font-size: 20px;
     margin-right: 8px;
 }
 
-.event-heading{
+.event-heading {
     font-size: 2.25vw;
     margin-bottom: 1.5vw;
     font-weight: bold;
@@ -112,55 +108,59 @@ h1{
     line-height: 100%;
 }
 
-.event-details{
+.event-details {
     font-size: 1.5vw;
     overflow: hidden;
 }
 
-.date{
+.date {
     visibility: visible;
 }
 
-@media(max-width: 910px){
-    .date{
+@media(max-width: 910px) {
+    .date {
         display: none;
     }
-
-    .event-heading{
+    .event-heading {
         font-size: 3.5vw;
     }
-
-    .event-details{
+    .event-details {
         font-size: 2vw;
     }
-
-
 }
 
-@media(max-width: 640px){
-    
-    .event-date{
+@media(max-width: 640px) {
+    .event-date {
         margin-bottom: 5px;
     }
-
-    .card-container{
+    .card-container {
         align-items: flex-start !important;
     }
-
-    .event-date{
+    .event-date {
         font-size: 5vw;
     }
-
-    .card-content{
+    .card-content {
         padding: 10px 20px;
     }
-
-    .event-heading{
+    .event-heading {
         font-size: 4vw;
     }
-
-    .event-details{
+    .event-details {
         font-size: 2.5vw;
     }
-
+    .card-container {
+        flex-direction: column;
+    }
+    .card-img {
+        flex: 0 0 100%;
+        text-align: center;
+        max-width: 100%;
+        justify-content: center;
+        height: 100%;
+        margin: auto;
+    }
+    .card-content {
+        text-align: left;
+        margin: auto;
+    }
 }
