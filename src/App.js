@@ -4,6 +4,8 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About-Us-Body';
+import Announcement from './components/Announcement';
+import FadeExample from './components/FadeExample';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <About />
         </Route>
       </Switch>
+      <Announcement />
+      <FadeExample />
       <Footer />
     </div>
     </BrowserRouter>

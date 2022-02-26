@@ -239,3 +239,72 @@ tbody tr:nth-child(even){
     justify-content: space-evenly;
 }
 
+.d-block{
+    display: flex;
+    height: 500px;
+    border-radius: 5px 0 0 5px;
+}
+.block{
+    margin-left:5%;
+    width: 90%;
+    padding: 30px;
+}
+.announcements-head{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.list{
+    padding-top: 30px;
+    width: auto;
+    margin: 0 13%;
+}
+.d-flex:hover{
+    background-color: rgb(183, 190, 197);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.announce{
+    margin-right: 800px;
+    
+}
+.color{
+    background-color: #dfe9f7;
+    padding: 50px;
+}
+
+.posture{
+    background-color: #dfe9f7;
+}
+.d-flex{
+    text-decoration: none;
+    background-color: #c7eaff;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.Bad{
+    padding:10px;
+}
+.container{
+    display: flex;
+}
+.block-text{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 500px;
+    justify-content: center;
+    background-color: #f8f8f8;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.ms-2{
+    height: 80px;
+}
+
+.ann-head{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
