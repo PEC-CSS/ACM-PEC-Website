@@ -1,6 +1,4 @@
-import React, {Component} from "react";
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import React from "react";
 import Project from "./Project";
 import logo from "../assets/images/pec_acm_logo.jpg"
 
@@ -8,7 +6,6 @@ import logo from "../assets/images/pec_acm_logo.jpg"
 function ProjectMain() {
   return (
     <>
-            <Header/> 
             <Project
                 title="ACM-CSS WEBSITE"
                 imgsrc={logo}
@@ -21,7 +18,6 @@ function ProjectMain() {
                 imgsrc="https://image.cnbcfm.com/api/v1/image/106895886-1623424433335-gettyimages-1318384825-210464_7.jpeg?v=1623685977&w=1340&h=500"
                 repo="https://github.com/PEC-CSS/Stock-Watchlist"
             />
-            <Footer/>
             </>
   )
 }

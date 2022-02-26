@@ -132,7 +132,7 @@ li {
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     background-color: #9AD0EC;
     transform-origin: bottom right;
@@ -269,7 +269,7 @@ li {
 @media (max-width: 520px) {
   .main-nav {
     height: 6rem;
-    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+    grid-template-columns: 1rem 4fr 1fr 1fr rem;
   }
 
   .logo,

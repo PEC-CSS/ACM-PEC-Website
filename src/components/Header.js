@@ -20,10 +20,10 @@ const Header = () => {
                     {/* Menu */}
                     <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                         <ul>
-                            <li className='hover-underline-animation'><Link to='/'>Home</Link></li>
-                            <li className='hover-underline-animation'>Events</li>
-                            <li className='hover-underline-animation'>Projects</li>   
-                            <li className='hover-underline-animation'><Link to={{pathname: "./About-Us"}}>About Us</Link></li>
+                            <li ><Link to='/' className='hover-underline-animation'>Home</Link></li>
+                            <li><Link to={{pathname: "./Events"}}  className='hover-underline-animation'>Events</Link></li>
+                            <li><Link to='./Projects'  className='hover-underline-animation'>Projects</Link></li>   
+                            <li><Link to={{pathname: "./About-Us"}}  className='hover-underline-animation'>About Us</Link></li>
                         </ul>
                     </div>
                     {/* Social Media Desktop*/}
