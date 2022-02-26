@@ -8,7 +8,7 @@ import logo from "../assets/images/pec_acm_logo.jpg"
 function ProjectMain() {
   return (
     <>
-            {/* <Header/> */}
+            <Header/> 
             <Project
                 title="ACM-CSS WEBSITE"
                 imgsrc={logo}
