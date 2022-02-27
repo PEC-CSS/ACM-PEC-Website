@@ -50,7 +50,7 @@ export default function Slider(props) {
                 src={projects[index]}
               />
               <div className="more-info-btn">
-                <Link to="/Announcements" >More</Link>
+                <Link to="/Announcements">More</Link>
               </div>
             </div>
           ))}

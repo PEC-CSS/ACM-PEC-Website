@@ -19,22 +19,13 @@ function makeGDriveLinkUsable(s)
 
 
 // Paste drive Link and add it in the ProjectImg List
-
-const image1 = 'https://drive.google.com/file/d/135jImRhC8MJz-A2UiP_Kj7yjeTjU2Rba/view?usp=sharing'
-
-const image2 = 'https://drive.google.com/file/d/1DKDKMaLfrMFLyRolcnHMu3A8RSJoLm84/view?usp=sharing'
-
-const image3 = 'https://drive.google.com/file/d/1SJ2NJ8NVspmSCV70vxmPRz83W3LAqyEu/view?usp=sharing'
-
-const image4 = 'https://drive.google.com/file/d/1Rhd4nX2gKiI4Ou1j_EtqiTVe67IyG09f/view?usp=sharing'
-
 // End name with a comma (Place links within quotes)
 // First 4 names will be displayed
 const ProjectImg = [
-    image1,
-    image2,
-    image3,
-    image4,
+    'https://drive.google.com/file/d/135jImRhC8MJz-A2UiP_Kj7yjeTjU2Rba/view?usp=sharing',
+    'https://drive.google.com/file/d/1DKDKMaLfrMFLyRolcnHMu3A8RSJoLm84/view?usp=sharing',
+    'https://drive.google.com/file/d/1SJ2NJ8NVspmSCV70vxmPRz83W3LAqyEu/view?usp=sharing',
+    'https://drive.google.com/file/d/1Rhd4nX2gKiI4Ou1j_EtqiTVe67IyG09f/view?usp=sharing',
 ];
 
 

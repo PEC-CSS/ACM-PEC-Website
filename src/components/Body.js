@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Slider from "./Slider";
-import ProjectImg from './../assets/images/Images'
+import ProjectImg from './../assets/images/Images.js'
 
-class Home extends Component {
+class Body extends Component {
   render() {;
     return (
       // <div><h2>Body</h2></div>
@@ -13,4 +13,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Body;
