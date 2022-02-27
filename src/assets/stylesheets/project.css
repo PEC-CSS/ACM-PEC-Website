@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.card-img{
+    width: 350px;
+    height: 350px;
+}
+.card-h2{
+    font-size: 50px;
+    margin-left: 10px;
+    font-weight: boldest;
+}
+.card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 17px;
+    margin-left: 10px;
+}
+.card-h4{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.card-link{
+    padding-left: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-link:hover{
+    text-decoration: underline;
+}
+.card-desc{
+    padding: 30px;
+}
+.project-tile{
+    background-color: lightblue;
+    display: inline-flex;
+    margin: 30px 50px 30px 50px;
+    align-items: center;
+    z-index: 10;  
+    backdrop-filter: blur(10px);
+}
+
+.project-tile:hover{
+    filter: drop-shadow(0 0 1.3rem black); 
+    transform: scale(1.05);
+}
+@media screen and (max-width: 1024px) {
+    .project-tile{
+        display: flow-root;
+    }
+}
+@media screen and (max-width: 510px) {
+    .card-img{
+        width: 250px;
+        height: 250px;
+    }
+    .project-tile{
+        margin: auto auto 20px auto;
+    }
+}
