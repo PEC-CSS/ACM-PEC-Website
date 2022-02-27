@@ -47,5 +47,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "<h1 align='center'>ACM-PEC-Website</h1>\r This is the official website of PEC ACM student chapter. This is an Open-Source project. Feel free to contribute in it.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PEC-CSS/ACM-PEC-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PEC-CSS/ACM-PEC-Website/issues"
   }
 }
