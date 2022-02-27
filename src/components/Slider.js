@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import "./../assets/stylesheets/slider.css";
-import arrowButton from "./../assets/images/left_point_btn.svg";
+import arrowButton from './../assets/images/left_point_btn.svg'
 
 const delay = 3500; // change to 3500 again
 
