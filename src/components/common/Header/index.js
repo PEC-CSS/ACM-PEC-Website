@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare, FaLinkedin} from 'react-icons/fa';
 import { TiThMenuOutline } from 'react-icons/ti';
 
-import logoacm from "../utils/images/pec_acm_logo.jpg";
-import 'header.css';
+import logoacm from "../../../utils/images/pec_acm_logo.jpg";
+
+import './header.css';
 
 
 const Header = () => {
