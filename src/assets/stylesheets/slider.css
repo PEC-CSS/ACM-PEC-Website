@@ -1,0 +1,227 @@
+/* Slide Show*/
+
+.slide-show {
+  margin: 5px auto;
+  overflow: hidden;
+  max-width: 85vw;
+}
+
+/* Slide (Contain all items of announcement) */
+
+.slide {
+  display: inline-block;
+  position: relative;
+  height: 350px;
+  width: 100%;
+  margin: 15px 0px 5px 0px;
+}
+
+.slide-img
+{
+  height:350px;
+  width: 90vw;
+}
+
+/* More info button */
+.more-info-btn {
+  display: flex;
+  position: relative;
+
+  flex-direction: column-reverse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 80vw;
+
+  background: #fff;
+  width: 110px;
+  padding: 12px 30px;
+
+  border: 6px solid #4ac0ee;
+  color: #4ac0ee;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+  text-align: center;
+
+  /* z-index: 2; */
+
+  transition: all 0.2s 0.2s ease-out;
+}
+
+.more-info-btn::after,
+.more-info-btn::before {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  top: 100%;
+  left: -15px;
+  bottom: -10px;
+  content: "";
+  z-index: 1;
+  transition: all 0.2s ease-out 0.2s;
+}
+
+.more-info-btn::before {
+  background: #4ac0ee;
+  top: 10px;
+  height: 100%;
+  width: 15px;
+}
+
+.more-info-btn::after {
+  width: 100%;
+  background: #4ac0ee;
+  right: 0px;
+  height: 15px;
+}
+
+.more-info-btn:hover {
+  background: #4ac0ee;
+  color: #fff;
+  margin-bottom: 34px;
+
+  padding: 5px 23px; 
+}
+
+.more-info-btn:hover:after,
+.more-info-btn:hover:before {
+  top: 100%;
+  left: -15px;
+  bottom: 0px;
+}
+
+.more-info-btn:hover:before {
+  top: 0px;
+  left: 0px;
+  width: 0px;
+}
+
+.more-info-btn:hover:after {
+  right: 0px;
+  left: 0px;
+  height: 0px;
+}
+
+/* slider */
+
+.slide-show-slider {
+  white-space: nowrap;
+  transition: ease 2000ms;
+}
+
+
+/* Button (Dots) */
+
+.slide-show-dots {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.slide-show-dot {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  /* margin: 7px 7px 7px 0px; */
+  margin: 15px 9px 7px 0px;
+  background-color: #CAF0F8;
+}
+
+.slide-show-dot:hover{
+  background-color: #90E0EF;
+}
+
+.slide-show-dot.active {
+  transform: scale3d(1.6,1.6,1.6);
+  transition: ease-in 200ms;
+  background-color: #00B4D8;
+}
+
+/* Numbers Showing Count of slide */
+.slide-num
+{
+  font-size: x-large;
+  font-weight: 600;
+  align-self: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+/* Buttons (Arrows) */
+
+.btn-prev-slide, 
+.btn-next-slide {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right:40px;
+  border-radius: 50%;
+
+  /* 3D View */
+  box-shadow: 0px 14px 11px -10px rgb(0 0 0 / 50%);
+  /* transition: all 0.2s ease 0.2s; */
+}
+
+.btn-next-slide
+{
+  margin-left: 40px;
+  box-shadow: 0px -14px 11px -10px rgb(0 0 0 / 50%);
+  transform: rotate(180deg);
+}
+
+.btn-next-slide:hover,
+.btn-prev-slide:hover {
+  box-shadow: 0px -0 11px -10px rgb(0 0 0 / 50%); 
+  background-color: #e2e2e2;
+}
+
+/* Responsiveness - (Make Image width 100vw) and Hide Numberbers below it */
+
+@media (max-width: 750px) {
+  .btn-prev-slide{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .slide-num{
+    margin: 0px 40px 0px 0px;
+  }
+}
+
+@media (max-width: 550px) {
+  .slide{
+    height:230px;
+  }
+
+  .slide-img{
+    height: 230px;
+  }
+
+  .slide-num{
+    visibility: hidden;
+    font-size: 0px;
+  }
+
+  .btn-prev-slide,
+  .btn-next-slide{
+    height: 40px;
+    width: 40px;
+  }
+
+  .slide-show-dot{
+    height: 9px;
+    width: 9px;
+  }
+
+  .slide-show-dot.active{
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  .more-info-btn{
+    margin-left: 70vw;
+  }
+}
