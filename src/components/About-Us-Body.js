@@ -1,18 +1,8 @@
-// import React, { Component } from 'react';
+import React, { useState } from "react";
 
-// class Home extends Component {
-//     render() {
-//         return (
-//                 <div><h2>Body</h2></div>
-//             )
-//     }
-// }
+import "../utils/stylesheets/About-Us-body.css";
 
-// export default Home;
 
-import React from "react";
-import { useState } from "react";
-import "../assets/stylesheets/About-Us-body.css";
 const Home = () => {
   const [body, setBody] = useState("eb"); // "eb" or "ib"
   const [rotate, setRotate] = useState(false);
@@ -20,24 +10,30 @@ const Home = () => {
 
   window.addEventListener("scroll", function () {
     var reveals = [];
+    
     reveals.push(document.querySelectorAll(".acm-int-img"));
     reveals.push(document.querySelectorAll(".acm-img"));
     reveals.push(document.querySelectorAll(".acm-hist"));
     reveals.push(document.querySelectorAll(".acm-int-tex"));
+    
     for (var j = 0; j < reveals.length; j++) {
       for (var i = 0; i < reveals[j].length; i++) {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[j][i].getBoundingClientRect().top;
         var elementVisible = 150;
+        
         if (j === 2 || j === 3) {
           if (elementTop < windowHeight - elementVisible) {
             reveals[j][i].classList.add("slide-right");
+          
           } else {
             reveals[j][i].classList.remove("slide-right");
           }
+        
         } else {
           if (elementTop < windowHeight - elementVisible) {
             reveals[j][i].classList.add("slide-left");
+          
           } else {
             reveals[j][i].classList.remove("slide-left");
           }

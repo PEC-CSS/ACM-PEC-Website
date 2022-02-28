@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-import logo from "../assets/images/pec_acm_logo.jpg"
+import logo from "../utils/images/pec_acm_logo.jpg"
 
 
 function ProjectMain() {

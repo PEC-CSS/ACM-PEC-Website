@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "./Slider";
-import ProjectImg from './../assets/images/Images.js'
+import ProjectImg from './../utils/images/Images.js'
 
 class Body extends Component {
   render() {;

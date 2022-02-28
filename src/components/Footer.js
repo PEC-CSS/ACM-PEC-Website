@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/stylesheets/footer.css';
+import '../utils/stylesheets/footer.css';
 import {FaEnvelope, FaPhone, FaMapMarker} from "react-icons/fa"
 
 class Home extends Component {

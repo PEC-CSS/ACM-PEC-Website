@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/stylesheets/Events.css";
+import "../utils/stylesheets/Events.css";
 import { BiTimeFive } from "react-icons/bi";
 import { useState } from "react";
 import { useEffect } from "react";

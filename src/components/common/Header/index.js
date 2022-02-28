@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
-import '../assets/stylesheets/header.css';
+import { Link } from 'react-router-dom';
+
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare, FaLinkedin} from 'react-icons/fa';
 import { TiThMenuOutline } from 'react-icons/ti';
-import logoacm from "../assets/images/pec_acm_logo.jpg";
-import { Link } from 'react-router-dom';
+
+import logoacm from "../utils/images/pec_acm_logo.jpg";
+import 'header.css';
 
 
 const Header = () => {
         const [showMediaIcons, setShowMediaIcons] = useState(false);
+        
         return (
                 <>
                 <nav className='main-nav'>
@@ -48,4 +51,5 @@ const Header = () => {
             )
     }
 
-export default Header;
+
+    export default Header;

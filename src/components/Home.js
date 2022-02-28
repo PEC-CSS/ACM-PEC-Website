@@ -1,7 +1,7 @@
 import React from "react";
-import '../assets/stylesheets/home.css';
+import '../utils/stylesheets/home.css';
 import Slider from './Slider.js';
-import ProjectImg from './../assets/images/Images.js'
+import ProjectImg from './../utils/images/Images.js'
 
 function Home(){
     return(
