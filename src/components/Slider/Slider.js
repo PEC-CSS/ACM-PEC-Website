@@ -59,7 +59,7 @@ export default function Slider(props) {
       <div className="more-info-btn-container">
           <button className="more-info-btn" onClick={()=>{
             document.getElementById(projects[0].id).scrollIntoView();
-          }}>More</button>
+          }}>MORE</button>
       </div>
 
       {/* Dots below slider for moving slides */}
