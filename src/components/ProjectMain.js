@@ -1,8 +1,8 @@
 import React from "react";
 import Project from "./Project";
 import Slider from "./Slider/Slider.js";
-import logo from "../assets/images/pec_acm_logo.jpg";
-import ProjectImg from "./../assets/images/Images.js";
+import logo from "../utils/images/pec_acm_logo.jpg";
+import ProjectImg from "./../utils/images/Images.js";
 
 function ProjectMain() {
   return (
