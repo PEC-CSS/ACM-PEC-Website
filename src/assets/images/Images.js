@@ -22,17 +22,22 @@ function makeGDriveLinkUsable(s)
 // End name with a comma (Place links within quotes)
 // First 4 names will be displayed
 const ProjectImg = [
-    'https://drive.google.com/file/d/135jImRhC8MJz-A2UiP_Kj7yjeTjU2Rba/view?usp=sharing',
-    'https://drive.google.com/file/d/1DKDKMaLfrMFLyRolcnHMu3A8RSJoLm84/view?usp=sharing',
-    'https://drive.google.com/file/d/1SJ2NJ8NVspmSCV70vxmPRz83W3LAqyEu/view?usp=sharing',
-    'https://drive.google.com/file/d/1Rhd4nX2gKiI4Ou1j_EtqiTVe67IyG09f/view?usp=sharing',
+    {
+        src: 'https://drive.google.com/file/d/1ven0z8524cKmY3cnJLQyjhXuTVCsYD2o/view?usp=sharing', 
+        id: "webapp"
+    },
+    
+    {
+        src: 'https://drive.google.com/file/d/1DsND2x20HvDsdY7Ve4PTfyGT-XSYhlPD/view?usp=sharing', 
+        id: "stock"
+    },
 ];
 
 
 // Don't Change Anything Region STARTS ---------------
 
 for(var i = 0; i < ProjectImg.length; i++)
-    ProjectImg[i] = makeGDriveLinkUsable(ProjectImg[i]);
+    ProjectImg[i].src = makeGDriveLinkUsable(ProjectImg[i].src);
 
 export default ProjectImg;
 
