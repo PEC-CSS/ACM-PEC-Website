@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Header from './components/Header';
+import Header from './components/common/Header';
 import Footer from './components/Footer';
 import About from './components/About-Us-Body';
 import Events from './components/Events';
@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
-    <BrowserRouter basename="/ACM-PEC-Website">
+    <BrowserRouter basename='/ACM-PEC-Website'>
     <div>
       <Fade right>
       <Header />
