@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import "./../utils/stylesheets/slider.css";
-import arrowButton from './../utils/images/left_point_btn.svg'
+import "./slider.css";
+import arrowButton from "../../utils/images/left_point_btn.svg";
 
 const delay = 3500; // change to 3500 again
 
@@ -9,7 +8,7 @@ export default function Slider(props) {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
 
-  const projects = props.item.slice(0, Math.min(4, props.item.length));
+  const projects = props.image.slice(0, Math.min(4, props.image.length));
 
   // console.log(currentImage.default); // Image fixed!
 
@@ -47,15 +46,29 @@ export default function Slider(props) {
               <img
                 className="slide-img"
                 alt={`Event Number${index + 1}`}
-                src={projects[index]}
+                src={projects[index].src}
+                onClick={() => {
+                  document.getElementById(`${_.id}`).scrollIntoView({
+                    behavior: "smooth",
+                  }); 
+                }}
               />
             </div>
           ))}
         </div>
       </div>
 
-      <div className="more-info-btn">
-          <Link to="/Projects">More</Link>
+      <div className="more-info-btn-container">
+        <button
+          className="more-info-btn"
+          onClick={() => {
+            document.getElementById(projects[0].id).scrollIntoView({
+              behavior: "smooth"
+            });
+          }}
+        >
+          MORE
+        </button>
       </div>
 
       {/* Dots below slider for moving slides */}
