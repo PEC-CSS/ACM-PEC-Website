@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import "../utils/stylesheets/About-Us-body.css";
+import secy from '../utils/images/Nishant_puri.JPG';
 
 
 const Home = () => {
@@ -144,7 +145,7 @@ const Home = () => {
             <img
               className="img4"
               alt="acm"
-              src="https://uploads-eu-west-1.insided.com/deezer-en/attachment/ad9c7945-988f-4569-bf88-2d80876241bb.jpg"
+              src={secy}
             ></img>
           </div>
           <div className="right">

@@ -1,33 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.card-img{
+.project-card-img{
     width: 350px;
     height: 350px;
 }
-.card-h2{
+.project-card-h2{
     font-size: 50px;
     margin-left: 10px;
     font-weight: boldest;
 }
-.card-text{
+.project-card-text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     font-size: 17px;
     margin-left: 10px;
 }
-.card-h4{
+.project-card-h4{
     font-size: 20px;
     margin-left: 10px;
 }
 
-.card-link{
+.project-card-link{
     padding-left: 6px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.card-link:hover{
+.project-card-link:hover{
     text-decoration: underline;
 }
-.card-desc{
+.project-card-desc{
     padding: 30px;
 }
 .project-tile{
@@ -35,7 +35,12 @@
     display: inline-flex;
     margin: 30px 50px 30px 50px;
     align-items: center;
-    z-index: 10;  
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    z-index: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(0 0 .2rem black); 
     backdrop-filter: blur(10px);
 }
 
@@ -49,7 +54,7 @@
     }
 }
 @media screen and (max-width: 510px) {
-    .card-img{
+    .project-project-card-img{
         width: 250px;
         height: 250px;
     }
