@@ -93,6 +93,34 @@ width: 100%;
     
 }
 
+.c {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.groups-content{
+    flex: 1;
+    padding: 20px;
+}
+
+.groups-list{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.groups-image{
+    flex: 1;
+    background-image: url("https://www.mooc.org/hubfs/applications-of-computer-programming.jpg");
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
 @media screen and (max-width: 768px){
     .content-items{
         display: flex;
@@ -106,6 +134,12 @@ width: 100%;
     }
    
        
+}
+
+@media screen and (max-width:1002px) {
+    .c{
+        flex-direction: column;
+    }
 }
 
 
