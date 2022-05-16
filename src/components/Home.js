@@ -1,5 +1,6 @@
 import React from "react";
 import "../utils/stylesheets/home.css";
+import { BlogCard } from "./BlogCard";
 import { GroupCard } from "./GroupCard";
 
 
@@ -33,6 +34,27 @@ const groups = [
     title: "Cyber Security",
     description: "I want to be a hamkerman but I am non existant :crycatok:",
     image: "https://cdn-icons-png.flaticon.com/512/2716/2716612.png"
+  }
+]
+
+const blogs = [
+  {
+    title: "Why life is sadder than u think",
+    description: "Some things are better left unsaid, so let's not talk about it, thanku",
+    image: "https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg",
+    date: "February 31, 2022"
+  },
+  {
+    title: "Why life is sadder than u think",
+    description: "Some things are better left unsaid, so let's not talk about it, thanku",
+    image: "https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg",
+    date: "February 31, 2022"
+  },
+  {
+    title: "Why life is sadder than u think",
+    description: "Some things are better left unsaid, so let's not talk about it, thanku",
+    image: "https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg",
+    date: "February 31, 2022"
   }
 ]
 
@@ -122,7 +144,20 @@ function Home() {
         <h2 className="home-content home">e</h2>
       </div>
       <div className="home-content f">
-        <h2 className="home-content home">f</h2>
+        <h2 className="home-content-title">Recent Blogs</h2>
+        <hr className="home-content-br"/>
+        <div className="blogs-list">
+          {
+            blogs.map(({title,description,image,date},i)=>{
+              return <BlogCard 
+                title={title} 
+                description={description} 
+                image={image} 
+                date={date} 
+              />
+            })
+          }
+        </div>
       </div>
     </div>
   );

@@ -95,6 +95,8 @@ width: 100%;
 .c {
     display: flex;
     flex-direction: row;
+    background-color: #fafafad9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 
@@ -114,6 +116,8 @@ width: 100%;
     margin-top: 0;
     display: flex;
     flex-direction: row;
+    background-color: #fafafad9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .whowe-content{
@@ -180,6 +184,18 @@ width: 100%;
     background-color: rgb(3, 9, 91);
     color: white;
     border-color: rgb(3, 9, 91);
+}
+
+.f{
+    margin-bottom: 40px;
+}
+
+.blogs-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px){
