@@ -94,7 +94,7 @@ function Home() {
       </div>
       <div className="home-content c">
         <div className="groups-content">
-          <h2 className="home-content-title groups-title">Our Groups</h2>
+          <h2 className="home-content-title">Our Groups</h2>
           <hr className="home-content-br"/>
           <div className="groups-list">
             {
@@ -104,10 +104,19 @@ function Home() {
             }
           </div>
         </div>
-        <div className="groups-image" />
+        <div className="parallax-image groups-image" />
       </div>
       <div className="home-content d">
-        <h2 className="home-content home">d</h2>
+        <div className="parallax-image whowe-image" />
+        <div className="whowe-content">
+          <h2 className="home-content-title">Who we are</h2>
+          <hr className="home-content-br"/>
+          <div className="whowe-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quis voluptates distinctio esse tenetur architecto laborum impedit, sit nesciunt. Eveniet soluta repudiandae architecto? Id aperiam exercitationem odio consequuntur amet aut, eos corrupti cupiditate quasi! Ullam cupiditate atque error similique at veniam maiores tenetur itaque tempora, nobis molestiae quam sunt, suscipit praesentium! Sint, reiciendis fuga eius nulla facilis accusantium dignissimos voluptates ipsum laboriosam, molestias natus.</div>
+          <div className="whowe-buttons">
+            <a href="/" className="whowe-explore whowe-button">Explore</a>
+            <a href="/" className="whowe-team whowe-button">Meet our team</a>
+          </div>
+        </div>
       </div>
       <div className="home-content e">
         <h2 className="home-content home">e</h2>
