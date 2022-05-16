@@ -113,12 +113,12 @@ width: 100%;
 
 .groups-image{
     flex: 1;
-    background-image: url("https://www.mooc.org/hubfs/applications-of-computer-programming.jpg");
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/5f2da49df99ed4ddb7c00b9c/Software-developer-holds-a-pen-pointing-to-a-computer-screen--analyzing-the-code-/960x0.jpg?fit=bounds&format=jpg&width=960");
     background-repeat: no-repeat;
-    background-position: 10%;
     background-attachment: fixed;
-    background-size: cover;
-    min-height: 500px;
+    background-size: contain;
+    background-position: right;
+    min-height: 300px;
 }
 
 @media screen and (max-width: 768px){
@@ -139,6 +139,11 @@ width: 100%;
 @media screen and (max-width:1002px) {
     .c{
         flex-direction: column;
+    }
+
+    .groups-image{
+        background-position: center;
+        background-size: cover;
     }
 }
 
