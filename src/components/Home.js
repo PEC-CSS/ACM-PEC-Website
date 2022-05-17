@@ -154,6 +154,7 @@ function Home() {
                 description={description} 
                 image={image} 
                 date={date} 
+                i={i}
               />
             })
           }

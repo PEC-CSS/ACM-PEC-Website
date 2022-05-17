@@ -245,4 +245,10 @@ width: 100%;
     }
 }
 
+@media screen and (max-width:1057px ) {
+    .blogs-list{
+        flex-direction: column;
+    }
+}
+
 
