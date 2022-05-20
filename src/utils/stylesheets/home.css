@@ -55,7 +55,6 @@
 
 .content-items{
 display: flex;
-height: 80vh;
 width: 100%;
 }
 
@@ -93,6 +92,112 @@ width: 100%;
     
 }
 
+.c {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafad9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.groups-content{
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.groups-list{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.d {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafad9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.whowe-content{
+    padding: 20px;
+    flex-basis: 50%;
+}
+
+.whowe-info{
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(148, 148, 148);
+    margin: 15px;
+    line-height: 2.8rem;
+}
+
+.parallax-image{
+    flex-basis: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    min-height: 300px;
+}
+
+.groups-image{
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/5f2da49df99ed4ddb7c00b9c/Software-developer-holds-a-pen-pointing-to-a-computer-screen--analyzing-the-code-/960x0.jpg?fit=bounds&format=jpg&width=960");
+    background-position: right;
+}
+
+.whowe-image{
+    background-image: url('https://pm-powerconsulting.com/wp-content/uploads/2018/04/agileteam.jpg');
+    background-position: left;
+}
+
+.whowe-buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+
+.whowe-button{
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid;
+    padding: 12px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.whowe-team{
+    margin-left: 20px;
+    border-color: rgb(5, 12, 122);
+    background-color: rgb(5, 12, 122);
+    color: white;
+}
+
+.whowe-team:hover{
+    background-color: rgb(3, 9, 91);
+    color: white;
+    border-color: rgb(3, 9, 91);
+}
+
+.f{
+    margin-bottom: 40px;
+}
+
+.blogs-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
 @media screen and (max-width: 768px){
     .content-items{
         display: flex;
@@ -106,6 +211,44 @@ width: 100%;
     }
    
        
+}
+
+@media screen and (max-width:1002px) {
+    .c{
+        flex-direction: column;
+    }
+
+    .d{
+        flex-direction: column-reverse;
+    }
+
+    .groups-content{
+        flex-basis: 100%;
+    }
+
+    .whowe-content{
+        flex-basis: 100%;
+    }
+
+    .whowe-buttons{
+        justify-content: center;
+    }
+
+    .parallax-image{
+        background-position: center;
+        background-size: cover;
+        flex-basis: 100%;
+    }
+
+    .content-item{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1057px ) {
+    .blogs-list{
+        flex-direction: column;
+    }
 }
 
 
