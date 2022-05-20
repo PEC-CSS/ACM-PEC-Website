@@ -28,6 +28,8 @@ const Header = () => {
                             <li><Link to={{pathname: "./Events"}}  className='hover-underline-animation'>Events</Link></li>
                             <li><Link to='./Projects'  className='hover-underline-animation'>Projects</Link></li>   
                             <li><Link to={{pathname: "./About-Us"}}  className='hover-underline-animation'>About Us</Link></li>
+                            <li><Link to={{pathname: "./blogs"}}  className='hover-underline-animation'>Blogs</Link></li>
+
                         </ul>
                     </div>
                     {/* Social Media Desktop*/}
