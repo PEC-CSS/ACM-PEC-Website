@@ -18,6 +18,12 @@ export default {
             },
         },
         {
+            name: 'tags',
+            title: "Tags",
+            type: "array",
+            of: [{type: "string"}]
+        },
+        {
             name: "mainImage",
             title: "Main image",
             type: "image",
@@ -34,11 +40,6 @@ export default {
             name: "author",
             title: "Author",
             type: "string"
-        },
-        {
-            name: 'email',
-            title: 'Author\'s Name',
-            type: 'string'
         },
         {
             name: "publishedAt",
