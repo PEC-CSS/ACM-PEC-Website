@@ -27,59 +27,6 @@ class Footer extends Component {
                             </div>
                         </div>
                     </div>
-
-                    <div className="footer-center">
-                        <h3>LATEST BLOG POSTS</h3>
-                        <hr className="footer-hr"/>
-                        <div className="cfooter-content">
-                            <div className="cfooter-post">
-                                <div className="footer-img">
-                                    <img src='https://d4t7t8y8xqo0t.cloudfront.net/app/eazymedia/restaurant%2F110025%2Frestaurant020160519143002.jpg' className="img-footer" alt="" />
-                                </div>
-                                <div className="cfooter-text">
-                                    <div className="cfooter-text-title">
-
-                                        Good design is obvious
-                                    </div>
-                                    <div className="cfooter-text-info">
-                                        25 April 2002 | By Alex Gray
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className="cfooter-post">
-                                <div className="footer-img">
-                                    <img src='https://d4t7t8y8xqo0t.cloudfront.net/app/eazymedia/restaurant%2F110025%2Frestaurant020160519143002.jpg' className="img-footer" alt="" />
-                                </div>
-                                <div className="cfooter-text">
-                                <div className="cfooter-text-title">
-
-                                    Good design is obvious
-                                    </div>
-                                    <div className="cfooter-text-info">
-                                    25 April 2002 | By Alex Gray
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className="cfooter-post">
-                                <div className="footer-img">
-                                    <img src="https://d4t7t8y8xqo0t.cloudfront.net/app/eazymedia/restaurant%2F110025%2Frestaurant020160519143002.jpg" className="img-footer" alt="" />
-                                </div>
-                                <div className="cfooter-text">
-                                    <div className="cfooter-text-title">
-
-                                    Good design is obvious
-                                    </div>
-                                    <div className="cfooter-text-info">
-                                    25 April 2002 | By Alex Gray
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="footer-right">
                         <h3>CONTACT INFO</h3>
                         <hr className="footer-hr"/>

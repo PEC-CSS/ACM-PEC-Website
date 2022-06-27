@@ -23,7 +23,7 @@ const Eventlist = ({ events }) => {
                                 <p>
                                     <BiTimeFive className="timer-icon" />
                                     <span className="date">Event Date - </span>
-                                    {event.publishedAt}
+                                    {new Date(event.publishedAt).toLocaleDateString()}
                                 </p>
                             </div>
                             <div className="event-heading">{event.title}</div>
