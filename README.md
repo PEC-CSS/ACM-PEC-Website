@@ -6,7 +6,7 @@ This is the official website of PEC ACM student chapter. This is an Open-Source 
 ### Steps to Run the Project for the first time
 
 1. Open a Terminal/Cmd in the project folder
-2. Install the npm packages by running `npm install`. This will install all the necessary dependencies for the project to run
+2. Install the npm packages by running `npm install` or `npm i -legacy-peer-deps`. This will install all the necessary dependencies for the project to run
 3. Start the server by running: `npm start`
 4. A new window will open in your default browser at 
     > localhost:3000
