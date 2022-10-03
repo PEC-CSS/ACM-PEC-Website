@@ -1,8 +1,10 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import '../utils/stylesheets/blogs.css';
 import { CgProfile } from 'react-icons/cg';
 import { BsCalendarWeek } from 'react-icons/bs';
 import sanityClient from "../sanity/client";
+
 
 const ReadMore = ({ children }) => {
     const text = children;
