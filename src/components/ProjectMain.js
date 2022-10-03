@@ -35,7 +35,7 @@ function ProjectMain() {
             {projectPosts.map((project) => (
                 <Project
                     key={project._id}
-                    id={ProjectImg[project.id]?.id}
+                    // id={ProjectImg[project.id]?.id}
                     title={project.title}
                     descrip={project.description}
                     imgsrc={project.mainImage.asset.url}
