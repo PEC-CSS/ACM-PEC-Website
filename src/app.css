@@ -553,12 +553,180 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.bottom-40 {
+  bottom: 10rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-12 {
+  bottom: 3rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-40 {
+  right: 10rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.right-32 {
+  right: 8rem;
+}
+
+.right-44 {
+  right: 11rem;
+}
+
+.right-52 {
+  right: 13rem;
+}
+
+.right-96 {
+  right: 24rem;
+}
+
+.right-\[96px\] {
+  right: 96px;
+}
+
+.right-\[50px\] {
+  right: 50px;
+}
+
+.right-\[40px\] {
+  right: 40px;
+}
+
+.right-\[80px\] {
+  right: 80px;
+}
+
+.right-\[5vw\] {
+  right: 5vw;
+}
+
+.right-\[10vw\] {
+  right: 10vw;
+}
+
+.right-\[15vw\] {
+  right: 15vw;
+}
+
+.right-\[18vw\] {
+  right: 18vw;
+}
+
+.right-\[20vw\] {
+  right: 20vw;
+}
+
+.right-\[22vw\] {
+  right: 22vw;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.z-\[1\] {
+  z-index: 1;
+}
+
+.z-\[20\] {
+  z-index: 20;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
 
 .flex {
   display: flex;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-1\/12 {
+  width: 8.333333%;
+}
+
+.w-1\/6 {
+  width: 16.666667%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[5\%\] {
+  width: 5%;
+}
+
+.w-\[2\%\] {
+  width: 2%;
+}
+
+.w-\[1\%\] {
+  width: 1%;
+}
+
+.w-\[15\%\] {
+  width: 15%;
+}
+
+.w-\[12\%\] {
+  width: 12%;
 }
 
 .transform {
@@ -570,23 +738,29 @@ video {
   resize: both;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.bg-Mblue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 63 223 / var(--tw-bg-opacity));
 }
 
-.font-bold {
-  font-weight: 700;
+.bg-Dorange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 40 83 / var(--tw-bg-opacity));
 }
 
-.text-white {
+.bg-Lblue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 242 254 / var(--tw-bg-opacity));
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-Dorange {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-red-200 {
-  --tw-text-opacity: 1;
-  color: rgb(254 202 202 / var(--tw-text-opacity));
+  color: rgb(239 40 83 / var(--tw-text-opacity));
 }
 
 .drop-shadow {

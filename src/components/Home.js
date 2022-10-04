@@ -61,55 +61,56 @@ const blogs = [
 function Home() {
   return (
     <div >
-      <div className=" home-wrapper">
-        <div className="h1-title">PEC ACM Website something</div>
-        <div className="home-wrapper-description">
-          PEC ACM is a student chapter of the ACM at PEC University of
-          Technology
+      <div className=" home-wrapper bg-Lblue relative">
+        <div className="h1-title z-[20]">PEC ACM CSS</div>
+        <div className="home-wrapper-description z-[20]">
+          PEC ACM is a student chapter of the Association for Computing Machinery at PEC University of
+          Technology.
         </div>
         <div className="scroll-down"></div>
+        <img src="/home1.png" className="home-imgs absolute w-1/12 bottom-20 left-20" />
+        <img src="/home2.png" className="home-imgs-2 absolute w-1/12 top-20 right-96 z-[1]" />
+        <img src="/home3.png" className="home-imgs-2 absolute w-1/12 top-32 left-96 z-[1]" />
+        <img src="/home4.png" className="home-imgs absolute w-[12%] bottom-0 right-[22vw] z-[1]" />
       </div>
       <div className="home-content b">
         <h2 className="home-content-title">What we do.</h2>
-        <hr className="home-content-br"/>
+        <hr className="home-content-br" />
         <div className="content-items">
           <div className="content-item">
-              <div className="content-item-number">01.</div>
-                <div className="content-item-para-title">
-                <h1 className="content-item-title">
-                Creativity
-            </h1>
-            <p className="content-item-para">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque euismod, urna eu tincidunt consectetur, nisi
-            </p>
-                </div>
+            <div className="content-item-number">01.</div>
+            <div className="content-item-para-title">
+              <h1 className="content-item-title">
+                Code
+              </h1>
+              <p className="content-item-para">
+                We encourage various coding practices and have different branches supporting every coding style and stack.
+              </p>
+            </div>
 
           </div>
           <div className="content-item">
-              <div className="content-item-number">02.</div>
-                <div className="content-item-para-title">
-                <h1 className="content-item-title">
-                something
-            </h1>
-            <p className="content-item-para">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque euismod, urna eu tincidunt consectetur, nisi
-            </p>
-                </div>
+            <div className="content-item-number">02.</div>
+            <div className="content-item-para-title">
+              <h1 className="content-item-title">
+                Compete
+              </h1>
+              <p className="content-item-para">
+                We constantly hold contests and hackathons which encourage development and good coding practices amongst students. The feeling of participation and competing amongst others has always been a good mentor.
+              </p>
+            </div>
 
           </div>
           <div className="content-item">
-              <div className="content-item-number">03.</div>
-                <div className="content-item-para-title">
-                <h1 className="content-item-title">
-                Lorem
-            </h1>
-            <p className="content-item-para">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque euismod, urna eu tincidunt consectetur, nisi
-            </p>
-                </div>
+            <div className="content-item-number">03.</div>
+            <div className="content-item-para-title">
+              <h1 className="content-item-title">
+                Create
+              </h1>
+              <p className="content-item-para">
+                We create real life solutions, enriched with latest Technologies and robust mechanisms.
+              </p>
+            </div>
 
           </div>
         </div>
@@ -117,10 +118,10 @@ function Home() {
       <div className="home-content c">
         <div className="groups-content">
           <h2 className="home-content-title">Our Groups</h2>
-          <hr className="home-content-br"/>
+          <hr className="home-content-br" />
           <div className="groups-list">
             {
-              groups.map( ({title,description,image},i)=>{
+              groups.map(({ title, description, image }, i) => {
                 return <GroupCard title={title} description={description} image={image} />
               })
             }
@@ -132,7 +133,7 @@ function Home() {
         <div className="parallax-image whowe-image" />
         <div className="whowe-content">
           <h2 className="home-content-title">Who we are</h2>
-          <hr className="home-content-br"/>
+          <hr className="home-content-br" />
           <div className="whowe-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quis voluptates distinctio esse tenetur architecto laborum impedit, sit nesciunt. Eveniet soluta repudiandae architecto? Id aperiam exercitationem odio consequuntur amet aut, eos corrupti cupiditate quasi! Ullam cupiditate atque error similique at veniam maiores tenetur itaque tempora, nobis molestiae quam sunt, suscipit praesentium! Sint, reiciendis fuga eius nulla facilis accusantium dignissimos voluptates ipsum laboriosam, molestias natus.</div>
           <div className="whowe-buttons">
             <a href="/" className="whowe-explore whowe-button">Explore</a>
@@ -145,15 +146,15 @@ function Home() {
       </div>
       <div className="home-content f">
         <h2 className="home-content-title">Recent Blogs</h2>
-        <hr className="home-content-br"/>
+        <hr className="home-content-br" />
         <div className="blogs-list">
           {
-            blogs.map(({title,description,image,date},i)=>{
-              return <BlogCard 
-                title={title} 
-                description={description} 
-                image={image} 
-                date={date} 
+            blogs.map(({ title, description, image, date }, i) => {
+              return <BlogCard
+                title={title}
+                description={description}
+                image={image}
+                date={date}
                 i={i}
               />
             })

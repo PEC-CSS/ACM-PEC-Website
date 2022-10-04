@@ -1,24 +1,23 @@
-.group-card-root{
+.group-card-root {
     display: flex;
     flex-direction: row;
     flex-basis: 50%;
     margin: 10px 0px;
 }
 
-.group-card-title{
+.group-card-title {
     font-weight: bold;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 12px;
 }
 
-.group-card-description{
+.group-card-description {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(148, 148, 148);
 }
 
-.group-card-image{
+.group-card-image {
     height: 56px;
     width: 56px;
     margin: 0px 15px;
@@ -28,7 +27,7 @@
 }
 
 @media screen and (max-width:560px) {
-    .group-card-root{
+    .group-card-root {
         flex-basis: 100%;
     }
 }
