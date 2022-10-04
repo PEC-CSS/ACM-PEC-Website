@@ -15,7 +15,6 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-redux": "^7.2.6",
-    "react-reveal": "^1.2.2",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^2.1.3",
@@ -25,9 +24,12 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
+    "build:css": "tailwindcss src/index.css -o src/app.css",
+    "watch:css": "tailwindcss src/index.css -o src/app.css --watch",
+    "react-scripts:start": "sleep 5 && react-scripts start",
+    "start": "run-p watch:css react-scripts:start",
     "build": "react-scripts build",
-    "test": "react-scripts test --passWithNoTests",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -58,5 +60,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PEC-CSS/ACM-PEC-Website/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
   }
 }
