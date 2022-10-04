@@ -8,7 +8,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'Dorange': "#ef2853",
+        'Dblue': "#08104d",
+        'Lblue': "#ecf2fe",
+        'Mblue': "#273fdf",
+      }
+    },
   },
   plugins: [],
 }

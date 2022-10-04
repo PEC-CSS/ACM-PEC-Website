@@ -1,4 +1,4 @@
-.home{
+.home {
     background-color: snow;
     height: 400px;
     display: flex;
@@ -6,15 +6,18 @@
     align-items: center;
 }
 
-.home-content{
+.home-content {
     font-size: 100px;
     margin-top: 12vh;
 }
 
-.home-wrapper{
-    background-image: linear-gradient(to right, #a8c0ff, #3f2b96);
+.home-wrapper {
+    background-image: url("/home.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20rem 8rem;
     max-height: 80vh;
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,43 +25,88 @@
     flex-direction: column;
 }
 
+@keyframes float {
+    0% {
+        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+        transform: translate(0px);
+    }
 
-.h1-title{
+    50% {
+        /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+        transform: translate(15px, -20px);
+    }
+
+    100% {
+        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+        transform: translate(0px);
+    }
+}
+
+@keyframes float-rev {
+    0% {
+        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+        transform: translate(0px);
+    }
+
+    50% {
+        /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2); */
+        transform: translate(20px, 10px);
+    }
+
+    100% {
+        /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
+        transform: translate(0px);
+    }
+}
+
+.home-imgs {
+    transform: translatey(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
+.home-imgs-2 {
+    transform: translatex(0px);
+    animation: float-rev 3s ease-in-out infinite;
+}
+
+.h1-title {
     text-align: center;
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1px;
-    font-size: 7vh;
+    font-size: 9vh;
     margin-bottom: 1px;
     line-height: 8vh;
 }
 
-.home-wrapper-description{
+.home-wrapper-description {
     text-align: center;
-    font-size: 3vw;
-    padding: 80px 0;
+    font-size: 2vw;
+    padding: 40px 0;
     display: block;
     line-height: 7vh;
 }
 
-.home-content-title{
+.home-content-title {
     margin-top: 50vh;
     text-align: center;
     padding-top: 2vh;
-    font-size: 4rem;  
+    font-size: 4rem;
 }
 
-.home-content-br{
-    width:7rem;
-    margin:0 auto;
+.home-content-br {
+    width: 7rem;
+    margin: 0 auto;
 }
 
-.content-items{
-display: flex;
-width: 100%;
+.content-items {
+    display: grid;
+    padding: 0 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
 }
 
-.content-item{
+.content-item {
     display: flex;
     flex-direction: row;
     padding: 5%;
@@ -66,30 +114,29 @@ width: 100%;
 
 }
 
-.content-item-number{
+.content-item-number {
     color: #3f2b96;
     font-size: 6rem;
     font-weight: 800;
-    margin-top: 4rem;
     margin-right: 0.5rem;
-   
+
 }
 
-.content-item-para-title{
+.content-item-para-title {
     width: 80%;
     height: 100%;
-   
-    
+
+
 }
 
-.content-item-title{
+.content-item-title {
     font-size: 2rem;
     font-weight: 600;
 }
 
-.content-item-para{
+.content-item-para {
     font-size: 1.5rem;
-    
+
 }
 
 .c {
@@ -100,12 +147,12 @@ width: 100%;
 }
 
 
-.groups-content{
+.groups-content {
     flex-basis: 50%;
     padding: 20px;
 }
 
-.groups-list{
+.groups-list {
     margin: 20px 0px;
     display: flex;
     flex-direction: row;
@@ -120,12 +167,12 @@ width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.whowe-content{
+.whowe-content {
     padding: 20px;
     flex-basis: 50%;
 }
 
-.whowe-info{
+.whowe-info {
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(148, 148, 148);
@@ -133,7 +180,7 @@ width: 100%;
     line-height: 2.8rem;
 }
 
-.parallax-image{
+.parallax-image {
     flex-basis: 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -141,24 +188,24 @@ width: 100%;
     min-height: 300px;
 }
 
-.groups-image{
+.groups-image {
     background-image: url("https://imageio.forbes.com/specials-images/imageserve/5f2da49df99ed4ddb7c00b9c/Software-developer-holds-a-pen-pointing-to-a-computer-screen--analyzing-the-code-/960x0.jpg?fit=bounds&format=jpg&width=960");
     background-position: right;
 }
 
-.whowe-image{
+.whowe-image {
     background-image: url('https://pm-powerconsulting.com/wp-content/uploads/2018/04/agileteam.jpg');
     background-position: left;
 }
 
-.whowe-buttons{
+.whowe-buttons {
     display: flex;
     flex-direction: row;
     padding: 20px;
     align-items: center;
 }
 
-.whowe-button{
+.whowe-button {
     text-decoration: none;
     text-align: center;
     font-size: 12px;
@@ -173,24 +220,24 @@ width: 100%;
     transition: all 0.3s ease-in-out;
 }
 
-.whowe-team{
+.whowe-team {
     margin-left: 20px;
     border-color: rgb(5, 12, 122);
     background-color: rgb(5, 12, 122);
     color: white;
 }
 
-.whowe-team:hover{
+.whowe-team:hover {
     background-color: rgb(3, 9, 91);
     color: white;
     border-color: rgb(3, 9, 91);
 }
 
-.f{
+.f {
     margin-bottom: 40px;
 }
 
-.blogs-list{
+.blogs-list {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -198,57 +245,56 @@ width: 100%;
     margin: 10px;
 }
 
-@media screen and (max-width: 768px){
-    .content-items{
+@media screen and (max-width: 768px) {
+    .content-items {
         display: flex;
-        flex-direction: column;      
+        flex-direction: column;
     }
-    .content-item-para-title{
+
+    .content-item-para-title {
         width: 100%;
         height: 100%;
         margin: 0 auto;
         padding: 5%;
     }
-   
-       
+
+
 }
 
 @media screen and (max-width:1002px) {
-    .c{
+    .c {
         flex-direction: column;
     }
 
-    .d{
+    .d {
         flex-direction: column-reverse;
     }
 
-    .groups-content{
+    .groups-content {
         flex-basis: 100%;
     }
 
-    .whowe-content{
+    .whowe-content {
         flex-basis: 100%;
     }
 
-    .whowe-buttons{
+    .whowe-buttons {
         justify-content: center;
     }
 
-    .parallax-image{
+    .parallax-image {
         background-position: center;
         background-size: cover;
         flex-basis: 100%;
     }
 
-    .content-item{
+    .content-item {
         padding: 10px;
     }
 }
 
-@media screen and (max-width:1057px ) {
-    .blogs-list{
+@media screen and (max-width:1057px) {
+    .blogs-list {
         flex-direction: column;
     }
 }
-
-
