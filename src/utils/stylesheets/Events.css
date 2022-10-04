@@ -12,7 +12,13 @@ h1{
     -webkit-box-orient: vertical;
     flex-direction: column;
 }
+.center{
+    align-items: center;
+    /* align-self: center; */
+    z-index: 20;
+    margin-left: 12.5%;
 
+}
 
 .title{
     text-align: center;
