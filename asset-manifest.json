@@ -1,15 +1,16 @@
 {
-  "main.css": "/ACM-PEC-Website/static/css/main.3f1a58bb.chunk.css",
-  "main.js": "/ACM-PEC-Website/static/js/main.8048c53b.chunk.js",
-  "main.js.map": "/ACM-PEC-Website/static/js/main.8048c53b.chunk.js.map",
+  "main.css": "/ACM-PEC-Website/static/css/main.6810989e.chunk.css",
+  "main.js": "/ACM-PEC-Website/static/js/main.47e44b87.chunk.js",
+  "main.js.map": "/ACM-PEC-Website/static/js/main.47e44b87.chunk.js.map",
   "runtime~main.js": "/ACM-PEC-Website/static/js/runtime~main.a55bd390.js",
   "runtime~main.js.map": "/ACM-PEC-Website/static/js/runtime~main.a55bd390.js.map",
   "static/js/2.2090cce4.chunk.js": "/ACM-PEC-Website/static/js/2.2090cce4.chunk.js",
   "static/js/2.2090cce4.chunk.js.map": "/ACM-PEC-Website/static/js/2.2090cce4.chunk.js.map",
   "index.html": "/ACM-PEC-Website/index.html",
-  "precache-manifest.0a1e72a1d1ff096808b85fe27d354c25.js": "/ACM-PEC-Website/precache-manifest.0a1e72a1d1ff096808b85fe27d354c25.js",
+  "precache-manifest.a367910da3700b5f200c8ef91650d379.js": "/ACM-PEC-Website/precache-manifest.a367910da3700b5f200c8ef91650d379.js",
   "service-worker.js": "/ACM-PEC-Website/service-worker.js",
-  "static/css/main.3f1a58bb.chunk.css.map": "/ACM-PEC-Website/static/css/main.3f1a58bb.chunk.css.map",
+  "static/css/main.6810989e.chunk.css.map": "/ACM-PEC-Website/static/css/main.6810989e.chunk.css.map",
   "static/media/Nishant_puri.JPG": "/ACM-PEC-Website/static/media/Nishant_puri.0b5d7a1d.JPG",
+  "static/media/home.css": "/ACM-PEC-Website/static/media/home.f6c8fa1b.png",
   "static/media/left_point_btn.svg": "/ACM-PEC-Website/static/media/left_point_btn.6b08c6a3.svg"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0d75e1e8b53477b9d5af",
-    "url": "/ACM-PEC-Website/static/css/main.3f1a58bb.chunk.css"
+    "revision": "361bab57d5f66b1e19ca",
+    "url": "/ACM-PEC-Website/static/css/main.6810989e.chunk.css"
   },
   {
-    "revision": "0d75e1e8b53477b9d5af",
-    "url": "/ACM-PEC-Website/static/js/main.8048c53b.chunk.js"
+    "revision": "361bab57d5f66b1e19ca",
+    "url": "/ACM-PEC-Website/static/js/main.47e44b87.chunk.js"
   },
   {
     "revision": "ac54937c796f870280f2",
@@ -24,7 +24,11 @@ self.__precacheManifest = [
     "url": "/ACM-PEC-Website/static/media/Nishant_puri.0b5d7a1d.JPG"
   },
   {
-    "revision": "93425884119339d221a3299b92e08576",
+    "revision": "f6c8fa1b73c0f21705a40ee6dca1828c",
+    "url": "/ACM-PEC-Website/static/media/home.f6c8fa1b.png"
+  },
+  {
+    "revision": "fa9781942efd19df173f2812848ae124",
     "url": "/ACM-PEC-Website/index.html"
   }
 ];
