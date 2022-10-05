@@ -28,7 +28,7 @@
     "watch:css": "tailwindcss src/index.css -o src/app.css --watch",
     "react-scripts:start": "sleep 5 && react-scripts start",
     "start": "run-p watch:css react-scripts:start",
-    "build": "react-scripts build",
+    "build": "set \"CI=false\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
