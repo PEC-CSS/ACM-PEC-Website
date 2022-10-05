@@ -1,7 +1,6 @@
 import React from "react";
 import '../utils/stylesheets/project.css';
 import "../utils/stylesheets/Events.css";
-
 // import sanityClient from "../sanity/client";
 
 
@@ -30,46 +29,46 @@ import "../utils/stylesheets/Events.css";
 //   );
 // }
 function Project(props) {
-  // return events.map((event) => {
-      return (
+    // return events.map((event) => {
+    return (
         <div className="events-container center">
-          <div key={props._id}>
-              <article className="event-card reveal fade-bottom">
-                  <div className="card-container">
-                      <div className="card-img">
-                          <img
-                              src={props.imgsrc}
-                              alt="event-img"
-                              className="img-fluid"
-                          />
-                      </div>
-                      <div className="card-content">
-                          {/* <div className="event-date">
+            <div key={props._id}>
+                <article className="event-card reveal fade-bottom">
+                    <div className="card-container">
+                        <div className="card-img">
+                            <img
+                                src={props.imgsrc}
+                                alt="event-img"
+                                className="img-fluid"
+                            />
+                        </div>
+                        <div className="card-content">
+                            {/* <div className="event-date">
                               <p>
                                   <BiTimeFive className="timer-icon" />
                                   <span className="date">Event Date - </span>
                                   {new Date(event.publishedAt).toLocaleDateString()}
                               </p> */}
-                          {/* </div> */}
-                          <div className="event-heading">{props.title}</div>
-                          <div>
-                              <p className="event-details">
-                                  {props.descrip}
-                              </p>
-                              <h4 className="project-card-h4">
-                               Repository:{" "}
-                              <a href={props.repo} className="project-card-link" target="new">
-                                  {props.repo}
-                                  </a>
-                                  </h4>
-                          </div>
-                      </div>
-                  </div>
-              </article>
-          </div>
-          </div>
-      );
-  // });
+                            {/* </div> */}
+                            <div className="event-heading">{props.title}</div>
+                            <div>
+                                <p className="event-details">
+                                    {props.descrip}
+                                </p>
+                                <h4 className="project-card-h4">
+                                    Repository:{" "}
+                                    <a href={props.repo} className="project-card-link" target="new">
+                                        {props.repo}
+                                    </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    );
+    // });
 };
 
 // function Events() {
@@ -88,24 +87,24 @@ function Project(props) {
 //           content,
 //           publishedAt,
 //       }`;
-      // sanityClient
-      //     .fetch(query)
-      //     .then((data) => setEventPosts(data))
-      //     .catch((err) => console.log(err.message));
+// sanityClient
+//     .fetch(query)
+//     .then((data) => setEventPosts(data))
+//     .catch((err) => console.log(err.message));
 //   });
-  // return (
-  //     <div>
-  //         <div className="event-wrapper">
-  //             <h1 className="title">Events</h1>
-  //             <div>Ongoing Events</div>
-  //         </div>
-  //         <div className="events-section">
-  //             <div className="event-container">
-  //                 {/* <Eventlist events={eventPosts} /> */}
-  //             </div>
-  //         </div>
-  //     </div>
-  // );
+// return (
+//     <div>
+//         <div className="event-wrapper">
+//             <h1 className="title">Events</h1>
+//             <div>Ongoing Events</div>
+//         </div>
+//         <div className="events-section">
+//             <div className="event-container">
+//                 {/* <Eventlist events={eventPosts} /> */}
+//             </div>
+//         </div>
+//     </div>
+// );
 // }
 
 
