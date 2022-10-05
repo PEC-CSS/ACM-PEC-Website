@@ -12,7 +12,7 @@
 }
 
 .home-wrapper {
-    background-image: url("/home.png");
+    background-image: url("home.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
