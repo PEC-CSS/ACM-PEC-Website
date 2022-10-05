@@ -1,15 +1,15 @@
 {
-  "main.css": "/ACM-PEC-Website/static/css/main.64c07c2c.chunk.css",
-  "main.js": "/ACM-PEC-Website/static/js/main.61767d13.chunk.js",
-  "main.js.map": "/ACM-PEC-Website/static/js/main.61767d13.chunk.js.map",
-  "static/js/1.fe01842e.chunk.js": "/ACM-PEC-Website/static/js/1.fe01842e.chunk.js",
-  "static/js/1.fe01842e.chunk.js.map": "/ACM-PEC-Website/static/js/1.fe01842e.chunk.js.map",
-  "runtime~main.js": "/ACM-PEC-Website/static/js/runtime~main.ed2350df.js",
-  "runtime~main.js.map": "/ACM-PEC-Website/static/js/runtime~main.ed2350df.js.map",
-  "static/media/left_point_btn.svg": "/ACM-PEC-Website/static/media/left_point_btn.4d82b8c4.svg",
-  "static/media/Nishant_puri.JPG": "/ACM-PEC-Website/static/media/Nishant_puri.0b5d7a1d.JPG",
-  "static/css/main.64c07c2c.chunk.css.map": "/ACM-PEC-Website/static/css/main.64c07c2c.chunk.css.map",
+  "main.css": "/ACM-PEC-Website/static/css/main.3f1a58bb.chunk.css",
+  "main.js": "/ACM-PEC-Website/static/js/main.8048c53b.chunk.js",
+  "main.js.map": "/ACM-PEC-Website/static/js/main.8048c53b.chunk.js.map",
+  "runtime~main.js": "/ACM-PEC-Website/static/js/runtime~main.a55bd390.js",
+  "runtime~main.js.map": "/ACM-PEC-Website/static/js/runtime~main.a55bd390.js.map",
+  "static/js/2.2090cce4.chunk.js": "/ACM-PEC-Website/static/js/2.2090cce4.chunk.js",
+  "static/js/2.2090cce4.chunk.js.map": "/ACM-PEC-Website/static/js/2.2090cce4.chunk.js.map",
   "index.html": "/ACM-PEC-Website/index.html",
-  "precache-manifest.90b27dbe53e9e9e134c40e075bd2299c.js": "/ACM-PEC-Website/precache-manifest.90b27dbe53e9e9e134c40e075bd2299c.js",
-  "service-worker.js": "/ACM-PEC-Website/service-worker.js"
+  "precache-manifest.0a1e72a1d1ff096808b85fe27d354c25.js": "/ACM-PEC-Website/precache-manifest.0a1e72a1d1ff096808b85fe27d354c25.js",
+  "service-worker.js": "/ACM-PEC-Website/service-worker.js",
+  "static/css/main.3f1a58bb.chunk.css.map": "/ACM-PEC-Website/static/css/main.3f1a58bb.chunk.css.map",
+  "static/media/Nishant_puri.JPG": "/ACM-PEC-Website/static/media/Nishant_puri.0b5d7a1d.JPG",
+  "static/media/left_point_btn.svg": "/ACM-PEC-Website/static/media/left_point_btn.6b08c6a3.svg"
 }
