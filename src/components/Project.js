@@ -1,7 +1,6 @@
 import React from "react";
 import '../utils/stylesheets/project.css';
 import "../utils/stylesheets/Events.css";
-import projectlist from'../data/projectlist.json';
 // import sanityClient from "../sanity/client";
 
 
