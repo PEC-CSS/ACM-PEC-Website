@@ -1,9 +1,8 @@
 import React from "react";
 import '../utils/stylesheets/project.css';
 import "../utils/stylesheets/Events.css";
-import { BiTimeFive } from "react-icons/bi";
-import { useState } from "react";
-import { useEffect } from "react";
+import projectlist from'../data/projectlist.json';
+
 // import sanityClient from "../sanity/client";
 
 

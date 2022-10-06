@@ -47,16 +47,17 @@ const Home = () => {
     <>
       <div className="Body1">
         <div className="heading">
-          <p className="mission">Our Mission :</p>
-          <p className="statement">
+          <div className="mission"><p >Our Mission - </p></div>
+          <div className="statement"><p >
             To Be The Most Impactful ACM Student Chapter.
-          </p>
+          </p></div>
           <div class="arrow">
             <span></span>
             <span></span>
             <span></span>
           </div>
         </div>
+        <div className = "history">
         <div className="textbox1">
           <div className="slide-right">
             <p className="heading1">History of PEC</p>
@@ -137,6 +138,7 @@ const Home = () => {
             />
           </div>
         </div>
+        </div>
       </div>
       <div className="Body2">
         <div className="box1">OUR EXECUTIVE BOARD</div>
@@ -208,14 +210,14 @@ const Home = () => {
                           <li>Gaurav Sharma</li>
                         </ul>
                       </div>
-                      <div className="col1">
+                      {/* <div className="col1">
                         <ul className="item">
                           <li>Geetika Bansal</li>
                           <li>Parikh Goyal</li>
                           <li>Ankit Goyal</li>
                           <li>Gaurav Sharma</li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ) : (
