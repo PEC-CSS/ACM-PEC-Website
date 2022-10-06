@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ACM-PEC-Website/precache-manifest.85b0b63c8cf8a37dc7a5e2733a14bf0b.js"
+  "/ACM-PEC-Website/precache-manifest.54ac5a92c30713dd8f5340c412b5e60d.js"
 );
 
 workbox.clientsClaim();
