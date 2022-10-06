@@ -4,14 +4,15 @@
 .Body1 {
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 .heading {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 35rem;
-  background-color: rgb(1, 160, 214);
+  height: 700px;
+  background-color: black;
   padding: 10px;
   color: rgb(255, 255, 255);
   font-weight: 800;
@@ -22,6 +23,7 @@
   width: fit-content;
   height: max-content;
   font-size: 3.5rem;
+  margin-top: 10%;
   align-self: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -30,6 +32,7 @@
 .statement {
   width: fit-content;
   height: max-content;
+  margin-top: 60px;
   font-size: 4.5rem;
   align-self: center;
   margin-bottom: 2rem;
@@ -40,7 +43,7 @@
 /* <-----------------------------------------------------------------> */
 .arrow {
   position: absolute;
-  top: 50%;
+  top: 600px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -75,7 +78,10 @@
 }
 
 /* <-------------------------------------------------------------------> */
-
+.history {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .textbox1 {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -83,7 +89,7 @@
   padding-left: 1rem;
   padding-right: 5rem;
   font-size: 1.75rem;
-  background-color: rgb(1, 160, 214);
+  background-color: black;
 }
 .heading1 {
   /* font-size: 3rem;
@@ -103,12 +109,13 @@
 
 }
 .text1 {
-  max-width: 100%;
+  max-width: 90%;
   padding-left: 5rem;
   padding-right: 5rem;
   padding-bottom: 5rem;
   color: #ffffff;
   font-size: 2rem;
+  text-align: justify;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   letter-spacing: 0.3px;
@@ -138,9 +145,9 @@
   grid-template-columns: 40% 60%;
   width: 100%;
   padding-left: 5rem;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
   font-size: 1.75rem;
-  background-color: rgb(1, 160, 214);
+  background-color: black;
 }
 .heading2 {
   /* font-size: 3rem;
@@ -160,7 +167,7 @@
 
 }
 .text2 {
-  max-width: 100%;
+  max-width: 90%;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   padding-left: 5rem;
   padding-right: 5rem;
@@ -203,7 +210,7 @@
   padding-left: 0.5rem;
   padding-right: 5rem;
   font-size: 1.75rem;
-  background-color: rgb(1, 160, 214);
+  background-color: black;
 }
 .heading3 {
   /* font-size: 3rem;
@@ -223,15 +230,15 @@
 
 }
 .text3 {
-  max-width: 100%;
+  max-width: 90%;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   padding-left: 5rem;
   padding-right: 5rem;
   padding-bottom: 5rem;
   color: #ffffff;
   font-size: 2rem;
+  text-align: justify;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
   letter-spacing: 0.3px;
   margin-top: 0;
   margin-bottom: 1rem;
