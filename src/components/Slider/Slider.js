@@ -34,7 +34,7 @@ export default function Slider(props) {
   });
 
   return (
-    <>
+    <div className="slider-wrapper">
       {/* Main Body of Slider */}
       <div className="slide-show">
         <div
@@ -113,6 +113,6 @@ export default function Slider(props) {
           }}
         />
       </div>
-    </>
+    </div>
   );
 }
