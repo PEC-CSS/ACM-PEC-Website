@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d build",
     "build:css": "tailwindcss src/index.css -o src/app.css",
     "watch:css": "tailwindcss src/index.css -o src/app.css --watch",
-    "react-scripts:start": "sleep 5 && react-scripts start",
+    "react-scripts:start": "react-scripts start",
     "start": "run-p watch:css react-scripts:start",
     "build": "set \"CI=false\" && react-scripts build",
     "test": "react-scripts test",
