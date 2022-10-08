@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/common/Header/header';
-import Footer from './components/Footer';
+import Footer from './components/common/Footer/Footer';
 import About from './components/About-Us-Body';
 import Events from './components/Events';
 import Projects from './components/ProjectMain';

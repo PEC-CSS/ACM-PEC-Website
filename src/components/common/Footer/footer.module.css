@@ -1,0 +1,24 @@
+.mainFooter {
+  width: 100%;
+  height: max-content;
+}
+
+.logo {
+  grid-column: 2/3;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 76.54px;
+  max-height: 76.54px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: cyan;
+}
+
+.logo h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.3px;
+  margin-top: 1rem;
+}
