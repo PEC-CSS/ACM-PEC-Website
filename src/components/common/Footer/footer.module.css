@@ -1,6 +1,9 @@
 .mainFooter {
   width: 100%;
   height: max-content;
+  background-color: #5069ff;
+  background-image: url(/static/media/Student.724ce49f.png);
+  background-repeat: no-repeat;
 }
 
 .logo {
@@ -21,4 +24,10 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: 0.3px;
   margin-top: 1rem;
+  color: white;
+}
+
+.mainFooter span,
+.mainFooter a {
+  color: white;
 }
