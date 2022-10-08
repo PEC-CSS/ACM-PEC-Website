@@ -197,7 +197,6 @@ li {
 
   .mobile-menu-link {
     background-color: white;
-    height: 20rem;
     display: grid;
     grid-column: 2/5;
     align-items: center;
@@ -209,11 +208,11 @@ li {
   }
 
   .mobile-menu-link ul {
-    height: 20rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: flex-start;
+    height: 100%;
   }
 
   .mobile-menu-link ul li:first-child {
