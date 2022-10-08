@@ -7,12 +7,14 @@ import About from './components/About-Us-Body';
 import Events from './components/Events';
 import Projects from './components/ProjectMain';
 import Blogs from './components/Blogs';
+import ScrollTopButton from './components/common/ScrollTopButton/ScrollTopButton';
 import './app.css';
 
 function App() {
   return (
     <BrowserRouter basename='/ACM-PEC-Website'>
       <div>
+        <ScrollTopButton />
         <Header />
         <Switch>
           <Route exact path='/'>
