@@ -4,8 +4,8 @@ h1{
 
 .event-wrapper{
     background-color: skyblue;
-    max-height: 80vh;
-    height: 80vh;
+    max-height: 90vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;

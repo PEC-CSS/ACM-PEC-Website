@@ -1,3 +1,11 @@
+/* Slider component wrapper */
+
+.slider-wrapper {
+  max-height: 92vh;
+  height: 92vh;
+}
+
+
 /* Slide Show*/
 
 .slide-show {
