@@ -210,14 +210,14 @@ const Home = () => {
                           <li>Gaurav Sharma</li>
                         </ul>
                       </div>
-                      <div className="col1">
+                      {/* <div className="col1">
                         <ul className="item">
                           <li>Geetika Bansal</li>
                           <li>Parikh Goyal</li>
                           <li>Ankit Goyal</li>
                           <li>Gaurav Sharma</li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ) : (
