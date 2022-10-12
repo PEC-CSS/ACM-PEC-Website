@@ -1,6 +1,5 @@
 import React from "react";
 import "./slider.css";
-import Project from "../Project";
 import arrowButton from "../../utils/images/left_point_btn.svg";
 
 const delay = 3500; // change to 3500 again
