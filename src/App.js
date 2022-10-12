@@ -9,31 +9,34 @@ import Projects from './components/ProjectMain';
 import Blogs from './components/Blogs';
 import ScrollTopButton from './components/common/ScrollTopButton/ScrollTopButton';
 import './app.css';
+import ScrollToTop from './utils/helpers/scrollToTop';
 
 function App() {
   return (
     <BrowserRouter basename='/ACM-PEC-Website'>
       <div>
-        <ScrollTopButton />
-        <Header />
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route path='/About-Us'>
-            <About />
-          </Route>
-          <Route path='/Events'>
-            <Events />
-          </Route>
-          <Route path='/Projects'>
-            <Projects />
-          </Route>
-          <Route path='/Blogs'>
-            <Blogs />
-          </Route>
-        </Switch>
-        <Footer />
+        <ScrollToTop >
+          <ScrollTopButton />
+          <Header />
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/About-Us'>
+              <About />
+            </Route>
+            <Route path='/Events'>
+              <Events />
+            </Route>
+            <Route path='/Projects'>
+              <Projects />
+            </Route>
+            <Route path='/Blogs'>
+              <Blogs />
+            </Route>
+          </Switch>
+          <Footer />
+        </ScrollToTop>
       </div>
     </BrowserRouter>
   );
