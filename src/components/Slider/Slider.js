@@ -7,6 +7,7 @@ const delay = 3500; // change to 3500 again
 export default function Slider(props) {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
+  const pro = document.getElementsByClassName("projectdiv");
 
   const projects = props.image.slice(0, Math.min(4, props.image.length));
 
@@ -50,7 +51,7 @@ export default function Slider(props) {
                 onClick={() => {
                   document.getElementById(`${_.id}`).scrollIntoView({
                     behavior: "smooth",
-                  }); 
+                  });
                 }}
               />
             </div>
@@ -62,9 +63,11 @@ export default function Slider(props) {
         <button
           className="more-info-btn"
           onClick={() => {
-            document.getElementById(projects[0].id).scrollIntoView({
-              behavior: "smooth"
-            });
+            for (let i = 0; i < pro.length; i++) {
+              let x = pro[i];
+              console.log(x);
+              x.classList.remove("hidden");
+            }
           }}
         >
           MORE
