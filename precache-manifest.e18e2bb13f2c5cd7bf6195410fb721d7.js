@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8a06d0f286c8ecba0482",
+    "revision": "840bded3b82e6f3e6880",
     "url": "/ACM-PEC-Website/static/css/main.cbbd727e.chunk.css"
   },
   {
-    "revision": "8a06d0f286c8ecba0482",
-    "url": "/ACM-PEC-Website/static/js/main.27b76327.chunk.js"
+    "revision": "840bded3b82e6f3e6880",
+    "url": "/ACM-PEC-Website/static/js/main.1376297c.chunk.js"
   },
   {
     "revision": "ac54937c796f870280f2",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ACM-PEC-Website/static/media/home.f6c8fa1b.png"
   },
   {
-    "revision": "ef82b7f24a728e8efb5e1d041e03199c",
+    "revision": "324b45bce512fd3d9c7973526a102988",
     "url": "/ACM-PEC-Website/index.html"
   }
 ];
