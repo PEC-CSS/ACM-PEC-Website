@@ -1,8 +1,7 @@
 import React from "react";
-import '../utils/stylesheets/project.css';
+import "../utils/stylesheets/project.css";
 import "../utils/stylesheets/Events.css";
 // import sanityClient from "../sanity/client";
-
 
 // function Project(props) {
 //   return (
@@ -29,47 +28,45 @@ import "../utils/stylesheets/Events.css";
 //   );
 // }
 function Project(props) {
-    // return events.map((event) => {
-    return (
-        <div className="events-container center">
-            <div key={props._id}>
-                <article className="event-card reveal fade-bottom">
-                    <div className="card-container">
-                        <div className="card-img">
-                            <img
-                                src={props.imgsrc}
-                                alt="event-img"
-                                className="img-fluid"
-                            />
-                        </div>
-                        <div className="card-content">
-                            {/* <div className="event-date">
+  // return events.map((event) => {
+  return (
+    <div id="projectdiv" className="events-container center hidden projectdiv">
+      <div key={props._id}>
+        <article className="event-card reveal fade-bottom">
+          <div className="card-container">
+            <div className="card-img">
+              <img src={props.imgsrc} alt="event-img" className="img-fluid" />
+            </div>
+            <div className="card-content">
+              {/* <div className="event-date">
                               <p>
                                   <BiTimeFive className="timer-icon" />
                                   <span className="date">Event Date - </span>
                                   {new Date(event.publishedAt).toLocaleDateString()}
                               </p> */}
-                            {/* </div> */}
-                            <div className="event-heading">{props.title}</div>
-                            <div>
-                                <p className="event-details">
-                                    {props.descrip}
-                                </p>
-                                <h4 className="project-card-h4">
-                                    Repository:{" "}
-                                    <a href={props.repo} className="project-card-link" target="new">
-                                        {props.repo}
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </article>
+              {/* </div> */}
+              <div className="event-heading">{props.title}</div>
+              <div>
+                <p className="event-details">{props.descrip}</p>
+                <h4 className="project-card-h4">
+                  Repository:{" "}
+                  <a
+                    href={props.repo}
+                    className="project-card-link"
+                    target="new"
+                  >
+                    {props.repo}
+                  </a>
+                </h4>
+              </div>
             </div>
-        </div>
-    );
-    // });
-};
+          </div>
+        </article>
+      </div>
+    </div>
+  );
+  // });
+}
 
 // function Events() {
 //   const [eventPosts, setEventPosts] = useState([]);
@@ -106,6 +103,5 @@ function Project(props) {
 //     </div>
 // );
 // }
-
 
 export default Project;
