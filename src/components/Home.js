@@ -141,9 +141,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="home-content e">
-        <h2 className="home-content home">e</h2>
-      </div>
       <div className="home-content f">
         <h2 className="home-content-title">Recent Blogs</h2>
         <hr className="home-content-br" />
