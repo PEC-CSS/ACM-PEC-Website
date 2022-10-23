@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "../utils/stylesheets/project.css";
 import "../utils/stylesheets/Events.css";
 // import sanityClient from "../sanity/client";
@@ -29,15 +29,48 @@ import "../utils/stylesheets/Events.css";
 // }
 function Project(props) {
   // return events.map((event) => {
+    //this checks direction to toggle height of cardcontent
+    const open = {
+      height:"fit-content"
+    }
+    const close = {
+      height:"200px"
+    }
+    //
+    //this state stores height of content and more button text 
+    const [height, setheight] = useState({
+      isClicked:false,
+      value:close,
+      text:"...read more",
+      filter:`blur(${5}px)`
+    })
+    //this handler changes height of content and more button text 
+    const handleHeight = () =>{
+         if(height.isClicked===false){
+          setheight({
+            isClicked:true,
+            value:open,
+            text:"...show less",
+            filter:`blur(${0}px)`
+          })
+         }else{
+          setheight({
+            isClicked:false,
+            value:close,
+            text:"...read more",
+            filter:`blur(${5}px)`
+          })
+         }
+    }
   return (
-    <div id="projectdiv" className="events-container center hidden projectdiv">
+    <div id="projectdiv"  className="events-container projectdiv">
       <div key={props._id}>
-        <article className="event-card reveal fade-bottom">
+        <article  className="event-card reveal fade-bottom">
           <div className="card-container">
-            <div className="card-img">
-              <img src={props.imgsrc} alt="event-img" className="img-fluid" />
+            <div className="card-img-wrapper">
+              <img src={props.imgsrc} alt="event-img" className="project-card-img" />
             </div>
-            <div className="card-content">
+            <div style={height.value} className="card-content">
               {/* <div className="event-date">
                               <p>
                                   <BiTimeFive className="timer-icon" />
@@ -57,6 +90,11 @@ function Project(props) {
                   >
                     {props.repo}
                   </a>
+                  <div style={{backdropFilter:height.filter}} className="more-btn__wrapper">
+                  <button onClick={handleHeight} className="more-btn">
+                    {height.text}
+                  </button>
+                  </div>
                 </h4>
               </div>
             </div>

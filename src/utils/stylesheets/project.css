@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.project-card-img{
-    width: 350px;
-    height: 350px;
-}
+
 .project-card-h2{
     font-size: 50px;
     margin-left: 10px;

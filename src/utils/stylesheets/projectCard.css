@@ -1,0 +1,27 @@
+
+.card-content{
+    position:relative;
+    overflow:hidden;
+}
+.more-btn__wrapper{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    padding:1.5rem;
+    text-align:right;
+}
+.more-btn{
+    font-weight:bolder;
+    font-size:1rem;
+    color:#888;
+}
+.project-card-img{
+    width:300px;
+    height:230px;
+}
+.projectdiv{
+    display:flex;
+    justify-content:center;
+    padding:2rem;
+}
