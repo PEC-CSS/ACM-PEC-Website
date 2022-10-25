@@ -68,10 +68,10 @@ function Home() {
           Technology.
         </div>
         <div className="scroll-down"></div>
-        <img src="home1.png" className="home-imgs absolute w-1/12 bottom-20 left-20" alt="home_img" />
-        <img src="home2.png" className="home-imgs-2 absolute w-1/12 top-20 right-96 z-[1]" alt="home_img" />
-        <img src="home3.png" className="home-imgs-2 absolute w-1/12 top-32 left-96 z-[1]" alt="home_img" />
-        <img src="home4.png" className="home-imgs absolute w-[12%] bottom-0 right-[22vw] z-[1]" alt="home_img" />
+        <img src={require('./images/home1.png')} className="home-imgs absolute w-1/12 bottom-20 left-20" alt="home" />
+        <img src={require('./images/home.png')} className="home-imgs-2 absolute w-1/12 top-20 right-96 z-[1]" alt="home_1" />
+        <img src={require('./images/home2.png')} className="home-imgs-2 absolute w-1/12 top-32 left-96 z-[1]" alt="home_2" />
+        <img src={require('./images/home3.png')} className="home-imgs absolute w-[12%] bottom-0 right-[22vw] z-[1]" alt="home_3" />
       </div>
       <div className="home-content b">
         <h2 className="home-content-title">What we do.</h2>
