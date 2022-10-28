@@ -8,33 +8,41 @@ const Home = () => {
   const [body, setBody] = useState("eb"); // "eb" or "ib"
   const [rotate, setRotate] = useState(false);
   const [btn, setBTN] = useState(0);
+  const [isShown, setIsShown] = useState(false);
+  const [isShown1, setIsShown1] = useState(false);
+  const [isShown2, setIsShown2] = useState(false);
+  const [isShown3, setIsShown3] = useState(false);
+
+  // const handleClick = event => {
+  //   setIsShown(current => !current);
+  // };
 
   window.addEventListener("scroll", function () {
     var reveals = [];
-    
+
     reveals.push(document.querySelectorAll(".acm-int-img"));
     reveals.push(document.querySelectorAll(".acm-img"));
     reveals.push(document.querySelectorAll(".acm-hist"));
     reveals.push(document.querySelectorAll(".acm-int-tex"));
-    
+
     for (var j = 0; j < reveals.length; j++) {
       for (var i = 0; i < reveals[j].length; i++) {
         var windowHeight = window.innerHeight;
         var elementTop = reveals[j][i].getBoundingClientRect().top;
         var elementVisible = 150;
-        
+
         if (j === 2 || j === 3) {
           if (elementTop < windowHeight - elementVisible) {
             reveals[j][i].classList.add("slide-right");
-          
+
           } else {
             reveals[j][i].classList.remove("slide-right");
           }
-        
+
         } else {
           if (elementTop < windowHeight - elementVisible) {
             reveals[j][i].classList.add("slide-left");
-          
+
           } else {
             reveals[j][i].classList.remove("slide-left");
           }
@@ -47,8 +55,8 @@ const Home = () => {
     <>
       <div className="Body1">
         <div className="heading">
-        <div className="mission">  <p>Our Mission -</p> </div>
-        <div className="statement"><p>
+          <div className="mission">  <p>Our Mission -</p> </div>
+          <div className="statement"><p>
             To Be The Most Impactful ACM Student Chapter.
           </p></div>
           <div class="arrow">
@@ -57,88 +65,88 @@ const Home = () => {
             <span></span>
           </div>
         </div>
-        <div className = "history">
-        <div className="textbox1">
-          <div className="slide-right">
-            <p className="heading1">History of PEC</p>
-            <p className="text1">
-              Punjab Engineering College is a public research & technical
-              institution in Chandigarh. It was founded in 1921 in Lahore,
-              established in Chandigarh in 1953, and focuses on the field of
-              applied sciences, particularly engineering and technology. It is
-              known for its two-year and four-year programmes for which the
-              entry is through the Joint Entrance Examination – Mains and
-              Graduate Aptitude Test in Engineering. It offers degrees such as
-              Bachelor of Technology, Master of Technology, and a few others. It
-              also has a comprehensive graduate program offering doctoral
-              degrees in Science, Technology, Engineering and Mathematics
-            </p>
+        <div className="history">
+          <div className="textbox1">
+            <div className="slide-right">
+              <p className="heading1">History of PEC</p>
+              <p className="text1">
+                Punjab Engineering College is a public research & technical
+                institution in Chandigarh. It was founded in 1921 in Lahore,
+                established in Chandigarh in 1953, and focuses on the field of
+                applied sciences, particularly engineering and technology. It is
+                known for its two-year and four-year programmes for which the
+                entry is through the Joint Entrance Examination – Mains and
+                Graduate Aptitude Test in Engineering. It offers degrees such as
+                Bachelor of Technology, Master of Technology, and a few others. It
+                also has a comprehensive graduate program offering doctoral
+                degrees in Science, Technology, Engineering and Mathematics
+              </p>
+            </div>
+            <div className="slide-left">
+              <img
+                className="img1"
+                alt="acm-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0tv-Ym6RdUjUFOBM3NTf_Tid2nXwVNBD2qA&usqp=CAU"
+              />
+            </div>
           </div>
-          <div className="slide-left">
-            <img
-              className="img1"
-              alt="acm-img"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0tv-Ym6RdUjUFOBM3NTf_Tid2nXwVNBD2qA&usqp=CAU"
-            />
-          </div>
-        </div>
 
-        <div className="textbox2">
-          <div className="acm-img">
-            <img
-              className="img2"
-              alt="acm-img"
-              src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZGV8ZW58MHx8MHx8&w=1000&q=80"
-            />
+          <div className="textbox2">
+            <div className="acm-img">
+              <img
+                className="img2"
+                alt="acm-img"
+                src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZGV8ZW58MHx8MHx8&w=1000&q=80"
+              />
+            </div>
+            <div className="acm-hist">
+              <p className="heading2">History of ACM</p>
+              <p className="text2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ligula
+                nunc, consequat id odio sed, efficitur eleifend ex. Maecenas quis
+                interdum urna. In tempus elit vulputate semper condimentum. Morbi
+                tincidunt tellus vel condimentum sollicitudin. Morbi consectetur
+                libero ac odio sagittis, et ullamcorper libero egestas. Quisque
+                nisl purus, sagittis et sapien sit amet, ultricies laoreet neque.
+                Curabitur fermentum ac sapien eu finibus. Sed eget molestie
+                lectus. Nunc rutrum est in velit convallis consequat. Sed at massa
+                ex. Phasellus scelerisque aliquam odio, non venenatis purus
+                pretium sed. Aenean vulputate aliquet ipsum id auctor. In
+                hendrerit nibh ipsum, quis commodo velit vehicula non. Sed
+                interdum lectus urna, id molestie lectus vulputate eget. Morbi
+                consectetur, massa sed mollis venenatis, quam dolor gravida felis,
+                vitae rutrum est magna egestas libero.
+              </p>
+            </div>
           </div>
-          <div className="acm-hist">
-            <p className="heading2">History of ACM</p>
-            <p className="text2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ligula
-              nunc, consequat id odio sed, efficitur eleifend ex. Maecenas quis
-              interdum urna. In tempus elit vulputate semper condimentum. Morbi
-              tincidunt tellus vel condimentum sollicitudin. Morbi consectetur
-              libero ac odio sagittis, et ullamcorper libero egestas. Quisque
-              nisl purus, sagittis et sapien sit amet, ultricies laoreet neque.
-              Curabitur fermentum ac sapien eu finibus. Sed eget molestie
-              lectus. Nunc rutrum est in velit convallis consequat. Sed at massa
-              ex. Phasellus scelerisque aliquam odio, non venenatis purus
-              pretium sed. Aenean vulputate aliquet ipsum id auctor. In
-              hendrerit nibh ipsum, quis commodo velit vehicula non. Sed
-              interdum lectus urna, id molestie lectus vulputate eget. Morbi
-              consectetur, massa sed mollis venenatis, quam dolor gravida felis,
-              vitae rutrum est magna egestas libero.
-            </p>
-          </div>
-        </div>
 
-        <div className="textbox3">
-          <div className="acm-int-tex">
-            <p className="heading3">PEC ACM's Field Of Interest</p>
-            <p className="text3">
-              Maecenas non urna sed ante interdum faucibus eu eu sem. Nam vitae
-              erat consequat, pretium quam vitae, commodo ex. Donec pulvinar
-              rhoncus dolor quis malesuada. Etiam imperdiet in magna non
-              facilisis. Aenean rutrum, orci et pretium porttitor, ligula enim
-              volutpat sapien, nec facilisis tortor erat in lectus. Praesent
-              viverra diam eget dolor scelerisque posuere. Ut eget lectus quis
-              ex efficitur auctor. Donec erat ligula, blandit non tristique et,
-              condimentum vehicula urna. Sed egestas blandit turpis fermentum
-              volutpat. In euismod nisl consectetur odio porta accumsan. Aenean
-              ac mauris nisl. Mauris elementum sollicitudin suscipit. Donec
-              feugiat urna sed ex pellentesque, et vulputate dolor mattis. Sed
-              sodales mi est, nec pulvinar elit congue non.
-            </p>
-          </div>
-          <div className="acm-int-img">
-            <img
-              className="img3"
-              alt="acm-img"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwW8vR7QBm7e_Vw2N_PlFlfHBd4u-eQ5BR7Q&usqp=CAU"
-            />
+          <div className="textbox3">
+            <div className="acm-int-tex">
+              <p className="heading3">PEC ACM's Field Of Interest</p>
+              <p className="text3">
+                Maecenas non urna sed ante interdum faucibus eu eu sem. Nam vitae
+                erat consequat, pretium quam vitae, commodo ex. Donec pulvinar
+                rhoncus dolor quis malesuada. Etiam imperdiet in magna non
+                facilisis. Aenean rutrum, orci et pretium porttitor, ligula enim
+                volutpat sapien, nec facilisis tortor erat in lectus. Praesent
+                viverra diam eget dolor scelerisque posuere. Ut eget lectus quis
+                ex efficitur auctor. Donec erat ligula, blandit non tristique et,
+                condimentum vehicula urna. Sed egestas blandit turpis fermentum
+                volutpat. In euismod nisl consectetur odio porta accumsan. Aenean
+                ac mauris nisl. Mauris elementum sollicitudin suscipit. Donec
+                feugiat urna sed ex pellentesque, et vulputate dolor mattis. Sed
+                sodales mi est, nec pulvinar elit congue non.
+              </p>
+            </div>
+            <div className="acm-int-img">
+              <img
+                className="img3"
+                alt="acm-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwW8vR7QBm7e_Vw2N_PlFlfHBd4u-eQ5BR7Q&usqp=CAU"
+              />
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <div className="Body2">
         <div className="box1">OUR EXECUTIVE BOARD</div>
@@ -204,10 +212,44 @@ const Home = () => {
                     <div className="ebs">
                       <div className="col1">
                         <ul className="item">
-                          <li>Geetika Bansal</li>
-                          <li>Parikh Goyal</li>
-                          <li>Ankit Goyal</li>
-                          <li>Gaurav Sharma</li>
+                          <li>
+                            <div>
+                              <button onClick={() => { setIsShown(!isShown) }} >Geetika Bansal</button>
+                              {isShown && (
+                                <div>
+                                  <h3>SDE at APPLE India <br />Former Associate Developer Intern at D.E. Shaw</h3>
+                                </div>)
+                              }
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <button onClick={() => { setIsShown1(!isShown1) }} >Parikh Goyal</button>
+                              {isShown1 && (
+                                <div>
+                                  <h3>Software Engineer at Arcesium <br /> Former Research Intern at DRDO and Former Software Developer Intern at Arcesium </h3>
+                                </div>)
+                              }
+                            </div>
+                          </li>
+                          <li>
+                            <button onClick={() => { setIsShown2(!isShown2) }} >Ankit Goyal</button>
+                            {isShown2 && (
+                              <div>
+                                <h3>SDE at APPLE India <br />Former summer Analyst @Goldman Sach <br />Silver medalist PEC CSE'22 </h3>
+                              </div>)
+                            }
+                          </li>
+                          <li>
+                            <div>
+                              <button onClick={() => { setIsShown3(!isShown3) }}>Gaurav Sharma</button>
+                              {isShown3 && (
+                                <div>
+                                  <h3>SDE at Amazon India <br />Former Software Developer Intern at Groww  </h3>
+                                </div>)
+                              }
+                            </div>
+                          </li>
                         </ul>
                       </div>
                       {/* <div className="col1">
