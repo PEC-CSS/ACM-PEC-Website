@@ -22,7 +22,7 @@
     
   <a href="https://github.com/PEC-CSS/ACM-PEC-Website"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/PEC-CSS/ACM-PEC-Website">View Demo</a>
+    <a href="pec-css.github.io/ACM-PEC-Website/">View Demo</a>
     ·
     <a href="https://github.com/PEC-CSS/ACM-PEC-Website/issues">Report Bug</a>
     ·
