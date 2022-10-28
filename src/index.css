@@ -1,4 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('./utils/stylesheets/projectCard.css')

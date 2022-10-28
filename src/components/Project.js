@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "../utils/stylesheets/project.css";
 import "../utils/stylesheets/Events.css";
+import "../utils/stylesheets/projectCard.css";
 // import sanityClient from "../sanity/client";
 
 // function Project(props) {
