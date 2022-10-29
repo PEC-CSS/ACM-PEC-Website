@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ACM-PEC-Website/static/media/home.f6c8fa1b.png"
   },
   {
-    "revision": "f93fdbf25a9b42a883df327e85474ef2",
+    "revision": "b585f0b6618f19680985ebe8fe9731ae",
     "url": "/ACM-PEC-Website/index.html"
   }
 ];
