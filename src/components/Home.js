@@ -59,6 +59,7 @@ const blogs = [
 ]
 
 function Home() {
+  console.log("%PUBLIC_URL%");
   return (
     <div >
       <div className=" home-wrapper bg-Lblue relative">
