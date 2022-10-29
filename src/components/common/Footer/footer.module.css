@@ -2,8 +2,7 @@
   width: 100%;
   height: max-content;
   background-color: #5069ff;
-  /* background-image: url(/static/media/Student.724ce49f.png); */
-  background-image: url("../../../utils//images/Student.png");
+  background-image: url(/static/media/Student.724ce49f.png);
   background-repeat: no-repeat;
 }
 
