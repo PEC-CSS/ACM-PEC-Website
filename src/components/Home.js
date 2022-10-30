@@ -123,7 +123,7 @@ function Home() {
           <div className="groups-list">
             {
               groups.map(({ title, description, image }, i) => {
-                return <GroupCard title={title} description={description} image={image} />
+                return <GroupCard key={i} title={title} description={description} image={image} />
               })
             }
           </div>
@@ -149,6 +149,7 @@ function Home() {
           {
             blogs.map(({ title, description, image, date }, i) => {
               return <BlogCard
+                key={i}
                 title={title}
                 description={description}
                 image={image}
