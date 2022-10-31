@@ -127,46 +127,108 @@ h1{
     visibility: visible;
 }
 
-@media(max-width: 910px){
-    .date{
-        display: none;
-    }
 
-    .event-heading{
-        font-size: 3.5vw;
-    }
+/* RESPONSIVE DESIGN FOR MOBILE */
 
-    .event-details{
-        font-size: 2vw;
-    }
+/* MOBILE RESOLUTIONS such as IPHONE 5, SE 2016 */
 
+/****** PORTRAIT *************/
+@media  only screen 
+and (min-width : 300px)
+and (max-width : 358px) 
+and (orientation: portrait)   {
+
+    .event-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .event-card {
+        width: 100vw;
+    }
+    .card-img {
+        max-width: none;
+        flex: 0 0 60%;
+    }
+    .card-content {
+        padding: 5px 15px;
+    }
+    .event-date {
+        font-size: 14px;
+    }
+    .event-heading {
+        font-size: 12px;
+    }
+    .event-details {
+        font-size: 10px;
+    }
+}
+/* MOBILE RESOLUTIONS such as IPHONE 13Pro until mid range */
+
+@media  only screen 
+and (min-width : 359px)
+and (max-width : 480px) 
+and (orientation: portrait)   {
+    .event-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .event-card {
+        width: 100vw;
+    }
+    .card-img {
+        max-width: none;
+        flex: 0 0 60%;
+    }
+    .card-content {
+        padding: 5px 15px;
+    }
+    .event-date {
+        font-size: 18px;
+    }
+    .event-heading {
+        font-size: 16px;
+    }
+    .event-details {
+        font-size: 14px;
+    }
 
 }
 
-@media(max-width: 640px){
-    
-    .event-date{
-        margin-bottom: 5px;
-    }
+/* RESPONSIVE DESIGN FOR TABLES */
+/* TABLES RESOLUTIONS Ipad mini, Air4, Ipad Pro 11 */ 
 
-    .card-container{
-        align-items: flex-start !important;
-    }
+/****** PORTRAIT *************/
+@media  only screen 
+and (min-width : 569px)
+and (max-width : 834px) 
+and (orientation: portrait)   {
 
-    .event-date{
-        font-size: 5vw;
+    .event-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
     }
-
-    .card-content{
-        padding: 10px 20px;
+    .event-card {
+        width: 100vw;
     }
-
-    .event-heading{
-        font-size: 4vw;
+    .card-img {
+        max-width: none;
+        flex: 0 0 70%;
     }
-
-    .event-details{
-        font-size: 2.5vw;
+    .card-content {
+        padding: 5px 15px;
+    }
+    .event-date {
+        font-size: 25px;
+    }
+    .event-heading {
+        font-size: 20px;
+    }
+    .event-details {
+        font-size: 18px;
     }
 
 }
+
